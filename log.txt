@@ -1,0 +1,51 @@
+SUCCESS 1: cat -e /var/lib/dpkg/lock
+SUCCESS 1: apt --fix-broken install
+SUCCESS 1: dpkg --configure -a
+SUCCESS 1: apt-get -y update
+SUCCESS 1: apt-get -y upgrade
+SUCCESS 1: apt-get -y update
+SUCCESS 1: apt-get -y upgrade
+SUCCESS 1: apt-get purge python3-mysqldb
+SUCCESS 1: apt-get install -y apt-utils
+SUCCESS 1: apt-get install -y psmisc
+SUCCESS 1: apt-get install -y time
+SUCCESS 1: apt-get install -y curl
+SUCCESS 1: apt-get install -y python3-dateutil
+ERROR: apt-get install -y mysql
+ERROR 2: apt-get install -y mysql
+ERROR: apt-get install -y mysql-client
+ERROR 2: apt-get install -y mysql-client
+ERROR: apt-get install -y libmysqlclient-dev
+ERROR 2: apt-get install -y libmysqlclient-dev
+SUCCESS 1: apt-get install -y default-mysql-server
+SUCCESS 1: apt-get install -y default-libmysqlclient-dev
+SUCCESS 1: apt-get install -y default-mysql-client
+SUCCESS 1: apt-get install -y libmariadb-dev
+SUCCESS 1: apt-get install -y g++
+SUCCESS 1: apt-get install -y build-essential
+SUCCESS 1: apt-get install -y libssl-dev
+SUCCESS 1: apt-get install -y libpcre2-dev
+SUCCESS 1: apt-get install -y libreadline-dev
+ERROR: apt-get install -y libreadline
+ERROR 2: apt-get install -y libreadline
+ERROR: apt-get install -y libreadline7
+ERROR 2: apt-get install -y libreadline7
+SUCCESS 1: apt-get install -y python3
+SUCCESS 1: apt-get install -y python3-pip
+SUCCESS 1: apt-get install -y libssl-dev
+ERROR: apt-get install -y valkyrie
+ERROR 2: apt-get install -y valkyrie
+SUCCESS 1: apt-get install -y valgrind
+SUCCESS 1: apt-get install -y vim-gtk3
+
+--------------------------------
+  started prerequisitesUSER.sh
+-------------------------------- 
+SUCCESS 1: pip install requests
+SUCCESS 1: pip install lxml
+SUCCESS 1: pip install distance
+SUCCESS 1: pip install wget
+SUCCESS 1: pip install termcolor
+SUCCESS 1: pip install iso639
+SUCCESS 1: pip install mysqlclient
+SUCCESS 1: pip install wget

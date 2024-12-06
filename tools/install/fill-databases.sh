@@ -50,22 +50,22 @@ ShowAndExecute "python3 tvmazeImport.py --single 66"
 ShowAndExecute "python3 tvmazeImport.py --single 7744"
 
 date
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM tvmaze;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM episodes;"
+ShowAndExecute 'mysql pci --user pci -p -e' "SELECT count(*) FROM tvmaze;"
+ShowAndExecute 'mysql pci --user pci -p -e' "SELECT count(*) FROM episodes;"
 
 date
-ShowAndExecute 'mysql pci -e' "source $BASEPATH/dumps/tvmaze-dump.sql;"
+ShowAndExecute 'mysql pci --user pci -p -e' "source $BASEPATH/dumps/tvmaze-dump.sql;"
 
 date
-ShowAndExecute 'mysql pci -e' "source $BASEPATH/dumps/episodes-dump.sql;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM tvmaze;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM episodes;"
+ShowAndExecute 'mysql pci --user pci -p -e' "source $BASEPATH/dumps/episodes-dump.sql;"
+ShowAndExecute 'mysql pci --user pci -p -e' "SELECT count(*) FROM tvmaze;"
+ShowAndExecute 'mysql pci --user pci -p -e' "SELECT count(*) FROM episodes;"
 
 date
-ShowAndExecute 'mysql pci -e' "source $BASEPATH/dumps/tmdb-dump.sql;"
+ShowAndExecute 'mysql pci --user pci -p -e' "source $BASEPATH/dumps/tmdb-dump.sql;"
 
 date
-ShowAndExecute 'mysql pci -e' "source $BASEPATH/dumps/mojo-dump.sql;"
+ShowAndExecute 'mysql pci --user pci -p -e' "source $BASEPATH/dumps/mojo-dump.sql;"
 
 
 date

@@ -442,3 +442,34 @@ ERROR: mysql pci -e source /home/marc/pri2025/tools/install/dumps/mojo-dump.sql;
 SUCCESS: python3 dbConfigFiles.py --import all
 SUCCESS: mysql pci --user pci -p -e SELECT count(*) FROM config2;
 ERROR: python3 imdbGet.py
+SUCCESS: mysql --user pci -p -e source /home/marc/_pri2025/tools/install/tables/debian-user.sql;
+SUCCESS: mysql --user pci -p -e SELECT @@max_heap_table_size;
+SUCCESS: mysql --user pci -p -e SELECT @@tmp_table_size;
+SUCCESS: python3 tvmazeImport.py --single 66
+SUCCESS: python3 tvmazeImport.py --single 7744
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/_pri2025/tools/install/dumps/tvmaze-dump.sql;
+ERROR: mysql pci -e source /home/marc/_pri2025/tools/install/dumps/episodes-dump.sql;
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/_pri2025/tools/install/dumps/tmdb-dump.sql;
+ERROR: mysql pci -e source /home/marc/_pri2025/tools/install/dumps/mojo-dump.sql;
+SUCCESS: python3 dbConfigFiles.py --import all
+ERROR: mysql pci --user pci -p -e SELECT count(*) FROM config2;
+SUCCESS: mysql --user pci -p -e source /home/marc/_pri2025/tools/install/tables/debian-user.sql;
+SUCCESS: mysql --user pci -p -e SELECT @@max_heap_table_size;
+SUCCESS: mysql --user pci -p -e SELECT @@tmp_table_size;
+SUCCESS: python3 tvmazeImport.py --single 66
+SUCCESS: python3 tvmazeImport.py --single 7744
+SUCCESS: mysql pci --user pci -p -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci --user pci -p -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci --user pci -p -e source /home/marc/_pri2025/tools/install/dumps/tvmaze-dump.sql;
+SUCCESS: mysql pci --user pci -p -e source /home/marc/_pri2025/tools/install/dumps/episodes-dump.sql;
+SUCCESS: mysql pci --user pci -p -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci --user pci -p -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci --user pci -p -e source /home/marc/_pri2025/tools/install/dumps/tmdb-dump.sql;
+SUCCESS: mysql pci --user pci -p -e source /home/marc/_pri2025/tools/install/dumps/mojo-dump.sql;
+SUCCESS: python3 dbConfigFiles.py --import all
+SUCCESS: mysql pci --user pci -p -e SELECT count(*) FROM config2;
+ERROR: python3 imdbGet.py
