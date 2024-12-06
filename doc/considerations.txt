@@ -1,0 +1,267 @@
+
+BBR:
+rule TV = TV x264 1080p
+rule MOVIES = MOvIES x264 1080p
+
+!site BBR rale
+          ^
+
+rule TV = TV x264 1080p
+rule MOVIES = MOvIES x264 1080p
+
+!site BBR rule TV +720p
+rule TV = TV x264 1080p 720p
+
+!site ADD xYZ
+!site DEL ZXY
+!site MOD +xYZ -ZXY <- nicht hier
+
+!site BBR rule TV -1080p
+rule TV = TV x264 720p
+
+BBR:
+rule TV = TV x264 1080p
+
+
+definitiv:
+!site BBR rule TV set TV x264 2160p
+!site BBR rule TV mod +TV -x264 +2160p
+
+
+add: add all named elements
+ rule: ok 
+ name: FAIL
+ 
+del: del all nemed elements
+ rule: ok
+ name: fail
+
+set: set to named elements
+ rule: ok
+ name: ok
+ 
+mod: add/del elements based on unary operator
+ rule: ok
+ name: FAIL
+ 
+!site BBR name set "asdf qsadf asdf" 
+
+!site BBR name add "asdf qsadf asdf"  -> FAIL
+!site BBR add name "asdf qsadf asdf" 
+!site BBR add name
+
+
+!site BBR name set "asdf qsadf asdf"
+
+!site BBR rule add TV group ;AMCON;CookieMonster;CONVOY;DEFLATE;MEMENTO;METCON;STRANGERS;TBS;STRiFE;
+!site TEST rule TV group ADD/DEL/SET AMCON CookieMonster CONVOY DEFLATE MEMENTO METCON STRANGERS TBS STRiFE
+
+!site TEST rule TV ADD group:AMCON CookieMonster CONVOY DEFLATE MEMENTO METCON STRANGERS TBS STRiFE
+!site TEST rule TV SET group:AMCON CookieMonster CONVOY DEFLATE MEMENTO METCON STRANGERS TBS STRiFE
+
+rule MOVIES = MOvIES x264 1080p group:(ALL)
+
+
+
+=> rule TV = TV 720p 1080p 2160p scripted network:(amazon,netflix,youtube,youtube-premium) web webrip internal language:(English) std h264 h265 x264 x265 dupeshdtv
+
+rule TV = TV 720p 1080p 2160p scripted web webrip internal network:(netflix) language:(English) std h264 h265 x264 x265 dupeshdtv
+!site BBR rule TV add network:(amazon)
+=> rule TV = TV 720p 1080p 2160p scripted web webrip internal network:(netflix) network:(amazon)  language:(English) std h264 h265 x264 x265 dupeshdtv
+
+rule TV = TV 720p 1080p 2160p scripted web webrip internal network:(netflix) language:(English) std h264 h265 x264 x265 dupeshdtv
+!site BBR rule TV network add amazon
+=> rule TV = TV 720p 1080p 2160p scripted web webrip internal network:(netflix,amazon) language:(English) std h264 h265 x264 x265 dupeshdtv
+
+rule TV = TV 720p 1080p 2160p scripted web webrip internal network:(netflix,amazon) language:(English) std h264 h265 x264 x265 dupeshdtv
+!site BBR rule TV network set amazon
+=> rule TV = TV 720p 1080p 2160p scripted web webrip internal network:(amazon) language:(English) std h264 h265 x264 x265 dupeshdtv
+
+rule TV = TV 720p 1080p 2160p scripted web webrip internal language:(English) std h264 h265 x264 x265 dupeshdtv
+!site BBR rule TV network set amazon
+=> rule TV = TV 720p 1080p 2160p scripted web webrip internal network:(amazon) language:(English) std h264 h265 x264 x265 dupeshdtv
+
+rule TV = TV 720p 1080p 2160p scripted web webrip internal language:(English) std h264 h265 x264 x265 dupeshdtv
+!site BBR rule TV set network:(amazon)
+=> rule TV = network:(amazon)
+TODO: für diesen case, if delta-elements -= 5+ then WARNING
+
+
+
+
+
+!site BBR rule TV =(TV) x264 2160p
+!site BBR rule TV =(TV x264 2160p)
+
+!site BBR name Bla
+
+
+site ADD TEST
+site + TEST
+site +TEST  <- shrikey möchte das hier
+
+site: TEST; parameter name; modifier "", term "site name template"
+ 
+
+site DEL TEST
+site: TEST; parameter %; modifier %, term ""
+
+site TEST rule ADD RULE
+site: TEST, parameter rule, modifier RULE, term ""
+
+site TEST rule RULE ADD TV
+site: TEST, parameter rule, modifier RULE, term +TV
+
+site TEST rule RULE DEL TV
+site: TEST, paramter rule, modifier RULE, term -TV
+
+site TEST rule RULE SET TV x264
+site: TEST, parameter rule, modifier RULE, term =TV x264
+
+         cfg   param  modifier       term
+ADD 3.2: $3    "name" ""             "const text" / none
+DEL 3.2: $3    "%"    "%"
+SET 3.2: ->error
+
+ADD 6.5: $2    $3     $4             +$5...
+DEL 6.5: $2    $3     $4             -$5...
+SET 7.5: $2    $3     $4             =$5...
+
+
+identifyCommand(vector<string> command)
+
+if len== 1
+ action: distinct
+ site: %
+ parameter: %
+ modifier: %
+ submodifier: --
+ value: --
+ termAction: --
+
+site BBR
+ 
+if len == 2
+ action: list
+ site: $2
+ parameter: %
+ modifier: %
+ submodifier: %
+ value: --
+ termAction: --
+ 
+site BBR name
+if len = 3 && $2 == site && $3 == parameter-lsit
+ action: list
+ site: $2
+ parameter: $3
+ modifier: %
+ submodifier: --
+ value: --
+ termAction: --
+
+
+site BBR name SET blablabla  TODO
+
+!addaffil BBR CODEX
+!delaffil BBR CODEX
+!chaffil BBR CODEX
+
+!site BBR affil add CODEX
+!site BBR affil set CODEX
+
+
+
+ 
+site ADD BBR 
+if len = 3 && $2 == ADD/DEL/!SET
+ action: $2
+ site: $3
+ parameter: %
+ modifier: %
+ submodifier: --
+ value: --
+ termAction: --
+
+
+
+ 
+if len == 3 && $2 == site && $3 == parameter
+ action: list
+ site: $2
+ parameter: $3
+ modifier: %
+ submodifier: --
+ value: --
+ termAction: --
+  
+
+->site TEST rule RULE 
+  
+if len == 4 && $2 == site && $3 == parameter
+ action: list
+ site: $2
+ parameter: $3
+ modifier: $4
+ submodifier: --
+ value: --
+ termAction: --
+ 
+->site TEST rule ADD/DEL RULE 
+if len == 5 && $2 == site && $3 == parameter && $4 == ADD/DEL
+ action: $4
+ site: $2
+ parameter: $3
+ modifier: $5
+ submodifier: --
+ value: --
+ termAction: --
+ 
+->site TEST rule RULE ADD/DEL/SET TV tvid
+if len > 5 && $2 == site && $3 == parameter && $5 == ADD/DEL/SET
+ action: modify
+ site: $2
+ parameter: $3
+ modifier: $4
+ submodifier: $5  -> if $5... a submodifier ADD empty submodifier / DEL submodifier
+ value: --> termAction
+ termAction: --
+ 
+->site TEST rule RULE tvid ADD/DEL/SET 63
+if len > 6 && $2 == site && $3 == parameter && $4 == existingRule && $5 == submodifier && $6 == ADD/DEL/SET
+ action: modify
+ site: $2
+ parameter: $3
+ modifier: $4
+ submodifier: $5
+ value: --> termAction(string action, string existingTerm, vector<string> deltas)
+ termAction: $6
+ 
+static string process(string action, string site, string parameter, string modifier, string submodifier, string value, string termAction, string user)
+
+
+[04:30:30] <verbose> .newaffil SUCKXXX
+[04:30:31] <picie> -> * SUCKXXX * added in affils db! 
+[04:30:40] <verbose> !site SUN affils SUCKXXX
+[04:30:41] <picie> SUN exist or not, only my master know!
+
+[00:25:15] <ToWL> !pci list BBR games
+[00:25:17] <picie> rules! BBR/GAMES #0: group:( ACTiVATED CODEX CPY HI2U PLAZA Razor1911 RELOADED SKIDROW ) internal linux macosx windows 
+[00:25:53] <ToWL> !pci add BBR games group ;ACTiVATED;CODEX;CPY;HI2U;PLAZA;Razor1911;RELOADED;SKIDROW;HOODLUM;
+[00:25:55] <picie> rules! BBR/GAMES #0: group:( ACTiVATED CODEX CPY HI2U PLAZA Razor1911 RELOADED SKIDROW HOODLUM ) internal linux macosx windows 
+
+[08:02:10] <gQ> !pci add BA tv group ;AMCON;CookieMonster;CONVOY;DEFLATE;MEMENTO;METCON;STRANGERS;TBS;STRiFE;
+[08:02:10] <picie> rules! BA/TV #0: 1080p airdate:2018 dupehdtv group:( AMCON CookieMonster CONVOY DEFLATE MEMENTO METCON STRANGERS TBS STRiFE ) h264 network nw_ca nw_uk nw_usa scripted tvid:(ALL) web webrip x264 
+
+[15:48:08] <tluafed> !site GOT sitebans WGA
+[15:48:13] <picie> (GOT) sitebans...> +WGA 
+[15:48:13] <picie> (GOT) sitebans...> BS M MF NC SH ST TG TV DOH PSH MC LP P D0 FARM TO FT AES TGN THT FBI TT AFN DEP BRW CW BB UTC BLT RT TW DZN DOOM SSR MAF HK.NL HR WGA NEC LD 
+
+[00:59:40] <ToWL> !site RFA affils OCULAR
+[00:59:41] <picie> (RFA) affils.....> +OCULAR 
+[00:59:42] <picie> (RFA) affils.....> BDA CONSPIR4CY CPY DEV0 DUPLEX EiDER FKKHD HEAT LiQUiD LPD NEWiSO OCULAR PLAZA PLUTONiUM RiVER RtFM SKG SKGTV TUTOR UNLiMiTED VERUM VETO XQZT 
+
+[17:00:31] <gQ> !site KOH affils ILLUMINATE
+[17:00:31] <picie> (KOH) affils.....> -ILLUMINATE 
+
+

@@ -1,0 +1,114 @@
+concurrent = 1
+check_interval = 0
+
+[[runners]]
+  name = "stretch"
+  url = "https://git.0x8.ch/"
+  token = "TqeGwtqHEcNzyuTBDhvq"
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "debian:stretch"
+    privileged = false
+    disable_cache = false
+    volumes = ["/cache"]
+    shm_size = 0
+  [runners.cache]
+
+[[runners]]
+  name = "buster"
+  url = "https://git.0x8.ch/"
+  token = "zis8nTifkz377W4oxhdk"
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "debian:buster"
+    privileged = false
+    disable_cache = false
+    volumes = ["/cache"]
+    shm_size = 0
+  [runners.cache]
+
+[[runners]]
+  name = "ubuntu"
+  url = "https://git.0x8.ch/"
+  token = "Ah24_ARRPnL_XtxoWpL6"
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "ubuntu"
+    privileged = false
+    disable_cache = false
+    volumes = ["/cache"]
+    shm_size = 0
+  [runners.cache]
+
+[[runners]]
+  name = "centos"
+  url = "https://git.0x8.ch/"
+  token = "A9Txm4FNgF_jVrhdcXFx"
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "centos"
+    privileged = false
+    disable_cache = false
+    volumes = ["/cache"]
+    shm_size = 0
+  [runners.cache]
+
+[[runners]]
+  name = "stretch"
+  url = "https://groot.dnsfor.me:4432/"
+  token = "xUmy3pUqYdzN1pBB5nhz"
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "debian:stretch"
+    privileged = false
+    disable_cache = false
+    volumes = ["/cache"]
+    shm_size = 0
+  [runners.cache]
+
+[[runners]]
+  name = "buster"
+  url = "https://groot.dnsfor.me:4432/"
+  token = "1f76h2nCr8KdfehnbyhH"
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "debian:buster"
+    privileged = false
+    disable_cache = false
+    volumes = ["/cache"]
+    shm_size = 0
+  [runners.cache]
+
+[[runners]]
+  name = "ubuntu"
+  url = "https://groot.dnsfor.me:4432/"
+  token = "F7oEPuZQjfcQKouysHo3"
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "ubuntu"
+    privileged = false
+    disable_cache = false
+    volumes = ["/cache"]
+    shm_size = 0
+  [runners.cache]
+
+[[runners]]
+  name = "centos"
+  url = "https://groot.dnsfor.me:4432/"
+  token = "TzBBkmaT6eZChUGPa9ye"
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "centos"
+    privileged = false
+    disable_cache = false
+    volumes = ["/cache"]
+    shm_size = 0
+  [runners.cache]

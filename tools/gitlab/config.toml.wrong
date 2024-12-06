@@ -1,0 +1,58 @@
+concurrent = 1
+check_interval = 0
+
+[[runners]]
+  name = "stretch"
+  url = "https://git.0x8.ch/"
+  token = "SixvEX9Y3W6tDXo6UMVf"
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "debian:stretch"
+    privileged = false
+    disable_cache = false
+    volumes = ["/cache"]
+    shm_size = 0
+  [runners.cache]
+
+[[runners]]
+  name = "buster"
+  url = "https://git.0x8.ch/"
+  token = "58NqXFnFosueVffFi3y9"
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "debian:buster"
+    privileged = false
+    disable_cache = false
+    volumes = ["/cache"]
+    shm_size = 0
+  [runners.cache]
+
+[[runners]]
+  name = "ubuntu"
+  url = "https://git.0x8.ch/"
+  token = "k6vpRfBnk9fh4zHY1rry"
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "ubuntu"
+    privileged = false
+    disable_cache = false
+    volumes = ["/cache"]
+    shm_size = 0
+  [runners.cache]
+
+[[runners]]
+  name = "centos"
+  url = "https://git.0x8.ch/"
+  token = "g9QdMkPkdQPgVW2ze6-4"
+  executor = "docker"
+  [runners.docker]
+    tls_verify = false
+    image = "centos"
+    privileged = false
+    disable_cache = false
+    volumes = ["/cache"]
+    shm_size = 0
+  [runners.cache]

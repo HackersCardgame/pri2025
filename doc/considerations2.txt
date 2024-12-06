@@ -1,0 +1,152 @@
+add: add all named elements
+ rule: ok 
+ name: FAIL
+ 
+del: del all nemed elements
+ rule: ok
+ name: fail
+
+set: set to named elements
+ rule: ok
+ name: ok
+ 
+mod: add/del elements based on unary operator
+ rule: ok
+ name: FAIL
+
+help
+
+user
+
+site
+
+admin
+
+who
+
+whoami
+
+updateCache
+
+tvmaze
+
+imdb
+
+list
+
+
+1:
+site
+
+if len== 1
+ action: distinct
+ site: %
+ parameter: %
+ modifier: %
+ submodifier: --
+ value: --
+ termAction: --
+
+
+
+
+
+2:
+
+
+!site XYZ
+
+if len == 2
+ action: list
+ site: $2
+ parameter: %
+ modifier: %
+ submodifier: %
+ value: --
+ termAction: --
+
+
+!user XYZ    -> restrict to own user or admin
+
+if len == 2
+ action: list
+ site: $2
+ parameter: %
+ modifier: %
+ submodifier: %
+ value: --
+ termAction: --
+ 
+
+3:
+
+
+!site XYZ name
+
+if len = 3 && $2 == site && $3 == parameter-lsit
+ action: list
+ site: $2
+ parameter: $3
+ modifier: %
+ submodifier: --
+ value: --
+ termAction: --
+ 
+
+!site XYZ rule
+
+like above ^ ^ ^
+
+
+!site ADD xYZ
+!site DEL ZXY
+if len == 3 && $2 == ADD/DEL && $3 == site
+
+
+!site SET name,control,.... <- maybe
+
+
+!site MOD +xYZ -ZXY <- das nciht
+
+
+4:
+
+!site XYZ rule RULE
+!site XYZ dir DIR
+if len == 4 && $2 == site && $3 == indexedFunction
+
+
+5:
+
+!site XYZ rule ADD RULE
+!site XYZ rule DEL RULE
+if len == 5 && $2 == site && $3 == indexedFunction && $4 == DEL
+
+
+!site XYZ rule SET RULE ...
+if len > 5 && $2 == site && $3 == indexeFunction
+
+
+!site XYZ rule ADD RULE ...
+!site XYZ rule MOD RULE ...
+
+
+
+>5:
+!site XYZ rule RULE SET x264...
+!site XYZ rule RULE ADD x264...
+!site XYZ rule RULE DEL x264...
+
+
+site BBR name SET blablabla
+
+
+>5:
+!site XYZ rule RULE tvid ADD 63...
+!site XYZ rule RULE tvid DEL 63...
+!site XYZ rule RULE tvid SET 66 345 3474
+!site XYZ rule RULE tvid MOD +63 -1034 ...
+
+!site XYZ rule RULE language MOD +English -German ...
+
+

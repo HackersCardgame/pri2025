@@ -1,0 +1,72 @@
+
+##################################################################################
+# Current FEATURES
+# ----------------
+# SECTION        => to control if it is parsed by imdb or tvmaze
+# CODEC
+# VIDEOSOURCE
+# SCREENS
+# RESOLUTION
+# LANGUAGE
+# GENRE
+# CLSYEAR
+# 3D
+# OS  
+#
+# each feature @SECTION has possible @topics eg TV, MOVIE, GAMES. To add a topic
+# to a feature you must first add the topic and then add the topic to the feature
+#
+# feature
+# -------
+# the feature list will be parsed sequentially from the first to the last
+# if one matches it will add this topic to the feature
+#
+# topic
+# -----
+# the topic list will be parsed as an logical conjunction (AND)
+# (https://en.wikipedia.org/wiki/Logical_conjunction)
+# so if you want to specify things that are maybe in the release you
+# must add |
+#
+# topic MAC = MACOSx|MACOS|OSX
+#
+# because the release could contain MACOS or MACOSX or OSX
+# but never all 3 at the same time, if you dont make pipes (|)
+# then it would not recognize the release
+#
+# another if there is "$TVEP x264" it must contain any
+#  Season-Episode like S1E2 or S01E05
+# AND
+# the word "x264"
+#
+# examples
+# --------
+# Bellevue.S01E01.1080p.BluRay.x264-ROVERS        would match
+# Zapp.Europa.S01E01.SWEDiSH.PDTV.XviD-REPRiSE    would not match
+# The.Matrix.1999.SWEDiSH.PDTV.x264-BLAH          would not match
+#
+# keyword
+# -------
+# the keyword list will be parsed as an logical disjunction (OR) so if we use
+# the same combination "$TVEP x264"
+#  Season-Episode like S5E2 or S01E05
+# OR
+# the word x264
+#
+# examples
+# --------
+# Bellevue.S01E01.1080p.BluRay.x264-ROVERS        would match
+# Zapp.Europa.S01E01.SWEDiSH.PDTV.XviD-REPRiSE    would match
+# The.Matrix.1999.SWEDiSH.PDTV.x264-BLAH          would match
+#
+# Beware of "de Morgans Laws": https://en.wikipedia.org/wiki/De_Morgan%27s_laws
+#
+# it parses it hierachical  FEATURE => TOPIC => KEYWORD
+# if FEATURE has a $ then it refers a TOPIC where you can set multiple regex
+# values and TOPIC is AND conjuncted, so if you would have "OR" you must use |
+# if a TOPIC has a $ sign it refers to a KEYWORD, KEYWORDS ARE OR conjuncted
+# if any of the words in the keyword match then the whole KEYWORD matchs, you
+# dont need to make | (pipes)
+#
+##################################################################################
+

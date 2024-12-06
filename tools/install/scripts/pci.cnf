@@ -1,0 +1,5 @@
+[mysqld]
+tmp_table_size=3G
+max_heap_table_size=3G
+
+

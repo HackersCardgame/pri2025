@@ -1,0 +1,92 @@
+
+
+
+
+
+rule X264SE = 1080p 720p bluray docu festival foreign group:( APVRAL CONDITION FARGIRENIS GERUDO GNISTOR iMSORNY iNVANDRAREN NAPTiME RCDiVX RESURRECTION ) limited lrating::0 lvotes::0 nonfo noscr rating::0 std stv votes::0 x264 year::1900 
+
+
+
+
+
+
+
+
+
+
+
+
+
+NC   /TV.1080: 1080p group:;DIMENSION;BATV; hdtv nw_uk nw_usa                    scripted tvid x264
+NJ   /TV:       720p group                  hdtv network:;netflix;amazon; nw_usa scripted tvid webrip x264
+
+
+NASA/X264:     1080p 720p bluray     group:(ALL)                limited lrating::5 lvotes::500        wrating::0 std votes::0 x264 year::2008 
+DD  /X264.CLS: 1080p 720p bluray cls group:(ALL)                limited                               wrating::0 std votes::0 x264 year::1950
+NASA/X264:     1080p 720p bluray cls group:( NODLABS ) internal limited lrating::0 lvotes::0    nonfo wrating::0 std votes::0 x264 year::1900 
+NASA/X264 #3:  1080p      bluray cls group:( PSYCHD USURY )     limited             festival  internal  lrating::0 lvotes::0 nonfo noscr rating::0 std stv votes::0 x264 year::1900 
+NASA/X264 #4:  1080p 720p bluray     group:( AMIABLE DRONES SPARKS GECKOS SNOW BLOW Replica ) limited lrating::5 lvotes::500 nonfo rating::0 std votes::0 x264 year::2008 
+BBR/UHD #0: 3d cls docu festival group:(ALL) limited lrating::0 lvotes::0 nonfo noscr rating::0 std stv uhd votes::0 year::1900
+BBR/UHD #0: cls docu festival group:(ALL) limited lrating::0 lvotes::0 nonfo noscr rating::0 std stv uhd votes::0 year::1900
+BBR/UHD #1: group:( IAMABLE ) limited lrating::5 lvotes::500 rating::5 std uhd votes::1000 year::2017
+DVN/X264 #0: 1080p 720p bluray group:(ALL) rating::4 std votes::0 x264 year::2017
+DVN/X264 #1: 1080p 3d 720p bluray cls docu group:( AMIABLE ) limited lrating::0 lvotes::0 nonfo noscr rating::0 std votes::0 x264 year::1900
+DVN/X264 #2: 1080p 3d 720p bluray cls crf docu foreign group:( SAPHiRE ) internal limited lrating::0 lvotes::0 nonfo noscr rating::0 std votes::0 x264 year::1900
+DVN/X264 #3: 1080p 720p bluray group:(ALL) limited lrating::6 lvotes::1000 std x264 year::2017
+DVN/X264 #4: 1080p 720p group:(ALL) limited lrating::6 lvotes::1000 noscr rating::6 std votes::1000 web webrip year::2017
+
+
+
+1. go through general.cfg with featureExtractor
+2. go through SITE.cfg with featureExtractor ???
+
+1. check banns for general.cfg
+2. check banns for site.cfg
+
+I. go throug users with try catch
+
+II. go through users sites with try catch
+
+
+1. select rule with the most topics
+2. go through the line .split(" ")
+3. checkItem  (with additional try catch check = exception => not found)
+  ->if keyword exists, eg year call function
+  ->if not, just check regex
+  
+4. if rule matches => add to site list that is later transmitted to cbftp
+5. if element of the rule does not match rule does not match => eg. x263.3D => go to the next rule
+
+
+
+wrating = wide rating
+lrating = limited rating
+wvotes = wide votes
+lvotes = limited votes
+std = ???
+stv = ???
+year = min year
+x264 =
+noscr = 
+
+     19 company:(ALL)
+    206 group:(ALL)
+      9 studio:(ALL)
+     71 tvid:(ALL)
+
+
+
+META:
++x264 => must have x264
+-x264 => must not have x264
+empty => does not care
+
+
+META:
+x264 => must have x264
+!x264 => must not have x264     => maybe would not make sense for noscr  => and would maybe interfer with irc !xyz command like !site
+empty => does not care
+
+nonfo = ???
+tvid = ???
+

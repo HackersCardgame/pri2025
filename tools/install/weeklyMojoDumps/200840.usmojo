@@ -1,0 +1,2096 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<HEAD>
+<title>Weekly Box Office Results for October 3-9, 2008 - Box Office Mojo</title>
+<link rel="stylesheet" href="/css/mojo.css?1" type="text/css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="/css/mojo.css?1" type="text/css" media="print" title="no title" charset="utf-8"></head>
+<body>
+<iframe id="sis_pixel_sitewide" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" style="display: none;"></iframe>
+<script>
+    setTimeout(function(){
+        try{
+            //sis3.0 pixel
+            var cacheBust = Math.random() * 10000000000000000,
+                url_sis3 = '//s.amazon-adsystem.com/iu3?',
+                params_sis3 = [
+                    "d=boxofficemojo.com",
+                    "cb=" + cacheBust
+                ];
+
+            (document.getElementById('sis_pixel_sitewide')).src = url_sis3 + params_sis3.join('&');
+        }catch(e){
+            if (window.ueLogError) { 
+                window.ueLogError(e);
+            }
+        }
+    }, 5);
+</script>
+
+<div id="container">
+<div>
+<script type="text/javascript">
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+    (function() {
+        var gads = document.createElement("script");
+        gads.async = true;
+        gads.type = "text/javascript";
+
+        var useSSL = "https:" == document.location.protocol;
+        gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+
+        var node = document.getElementsByTagName("script")[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2831726-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+
+</script>
+
+	<div id="hp_banner">
+	<div id="top_links">
+		<div style="float: left"><a href="/daily/chart/">Daily Box Office (Thu.)</a> | <a href="/weekend/chart/">Weekend Box Office (Aug. 16&ndash;18)</a> | <a href="/movies/?id=untitleduniversal2019.htm">#1 Movie: 'Good Boys'</a> | <a href="http://www.imdb.com/showtimes/?ref_=mojo">Showtimes</a></div>
+		<div style="float: right">Updated 8/23/2019 2:56 P.M. Pacific Time</div>
+		<div style="clear:both; height: 0px"></div>
+	</div>
+</div>
+		
+<div id="header">
+<div id="leaderboard"><script src="//bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1073982656&w=728&h=90&ord=1566610807&z=0"></script>
+<noscript>
+    <a href="//bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1073982656&Page=&Pos=668343950" target="_blank">
+        <img src="//bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1073982656&Page=&Pos=668343950" border=0 width=728 height=90>
+    </a>
+</noscript>
+</div>
+	<div id="leaderboard"><script type="text/javascript">
+    googletag.cmd.push(function() {
+        googletag.defineSlot("/4215/imdb2.bom.other", [[728, 90]], "ad-slot-1").addService(googletag.pubads().setTargeting("p", "t"));
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+    });
+    googletag.cmd.push(function() { googletag.display("ad-slot-1"); });
+</script></div>	<div id="hp_logo"><a href="/"><img src="/img/misc/bom_logo1.png" width="245" height="56" alt="Box Office Mojo"></a></div>
+	<div style="clear:both; height: 0px"></div>
+</div>
+
+
+</div>
+
+<div class="connect_nav">
+    <ul>
+	<li class="nl_link">
+            <a href="http://pro.imdb.com/signup/index.html?rf=mojo_nb_hm&ref_=mojo_nb_hm" target="_blank">
+                <img src="/images/IMDbPro.png" alt="Get industry info at IMDbPro" height="20" />
+            </a>
+        </li>
+	<li class="nl_link">
+            <a href="http://twitter.com/boxofficemojo" target="_blank">
+                <img src="/images/glyphicons-social-32-twitter@2x.png" alt="Follow us on Twitter" height="18" />
+            </a>
+        </li>
+        <li class="nl_link">
+            <a href="http://facebook.com/boxofficemojo" target="_blank">
+                <img src="/images/glyphicons-social-31-facebook@2x.png" alt="Follow us on Facebook" height="18" />
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div id="main">
+<!-- COLUMN 1 of 4 -->
+	<div id="leftnav">
+<!-- google_ad_section_start(weight=ignore) -->
+<!-- <table id="navleft" cellspacing="0" cellpadding="2" border="0"> -->
+<ul id="leftnav">
+<li class="nl_section">Search Site</li>
+<li class="nl_link" style="padding-left:0px">
+	<form name="searchbox" method="POST" action="/search/q.php">
+	<input name="q"  type="text" style="font-size: 9 pt; font-weight: bold; width: 90px;"><br>
+	<input type="submit" value="Search..." ></form> 
+</li>
+<li class='nl_section'>Features</li>
+<li class='nl_link'><a href="/news/">News</a></li>
+<li class='nl_link'><a href="/schedule/">Release Sched.</a></li>
+<li class='nl_link'><a href="http://www.imdb.com/showtimes?ref_=mojo">Showtimes<br/><span style="margin-left:7px;color: #999999; font-size: 9px;">at <img src="/images/mojo_imdb_sm.png"/></span></a></li>
+<li class='nl_section'>Box Office</li>
+<li class='nl_link'><a href="/daily/">Daily</a></li>
+<li class='nl_link'><a href="/weekend/">Weekend</a></li>
+<li class='nl_link_current'><a href="/weekly/">Weekly</a></li>
+<li class='nl_link'><a href="/monthly/">Monthly</a></li>
+<li class='nl_link'><a href="/quarterly/">Quarterly</a></li>
+<li class='nl_link'><a href="/seasonal/">Seasonal</a></li>
+<li class='nl_link'><a href="/yearly/">Yearly</a></li>
+<li class='nl_link'><a href="/alltime/">All Time</a></li>
+<li class='nl_link'><a href="/intl/">International</a></li>
+<li class='nl_section'>Indices</li>
+<li class='nl_link'><a href="/studio/">Studios</a></li>
+<li class='nl_link'><a href="/people/">People</a></li>
+<li class='nl_link'><a href="/genres/">Genres</a></li>
+<li class='nl_link'><a href="/franchises/">Franchises</a></li>
+<li class='nl_link'><a href="/showdowns/">Showdowns</a></li>
+<li class='nl_link'><a href="/counts/">Theater Counts</a></li>
+</ul>
+</div>
+	<div id="body">
+<div id="addthis"><table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<form method="POST" action="/adjuster.php" name="adjuster">
+<input type="hidden" name="returnURL" value="/weekly/chart/?yr=2008&amp;wk=40&amp;p=.htm">
+<td valign="center">
+  <font face="Verdana" size="2"><a href="/about/adjuster.htm"><b>Adjuster:</b></a></font>
+  <select size="1" name="ticketyr" style="font-family: Verdana; font-size: 10pt">
+  <option value="0" selected>Actuals</option>
+  <option value="1" >Est. Tckts</option>
+<script language="javascript">
+  for(i=2019; i>=1933; i--) {
+  	document.write('<option value="' + i + '"');
+	if(i=='0') document.write(' selected');
+	document.write('>' + i );
+	if(i=='0') document.write(', $' + '0.00');
+	document.write('</option>');
+  }
+</script>
+  <option value="1929" >1929</option>
+  <option value="1924" >1924</option>
+  <option value="1910" >1910</option>
+  </select><input type="submit" name="Go" value="Go" style="font-size: 10pt; height: 22">
+
+</td></form></tr></table>
+
+</div>
+<h2>Weekly Box Office</h2>
+
+
+	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+	<tr bgcolor="#8b0000"><td colspan="1"><img src="/images/space.gif" border="0" width="1" height="5"></td></tr>
+	</table>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td>
+
+<h1>Weekly Box Office</h1>
+<h2>October 3-9, 2008</h2>
+	
+<p>Note: Weekly box office charts 7-day results (Friday through Thursday). To access the Weekend chart (Friday through Sunday), <a href="/weekend/chart/">click here</a>.
+</p>
+</td>
+<td align="center">
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+        googletag.defineSlot("/4215/imdb2.bom.other", [[300, 250]], "ad-slot-2").addService(googletag.pubads().setTargeting("p", "rh"));
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+    });
+    googletag.cmd.push(function() { googletag.display("ad-slot-2"); });
+</script></td>
+  </tr>
+</table>
+<center>
+
+
+<ul class="nav_tabs">
+<li class="nav_tab_current"><a href="/weekly/chart/?view=weekly&yr=2008&wk=40&p=.htm">Weekly Chart</a></li>
+<li><a href="/weekly/chart/?view=weekvswknd&yr=2008&wk=40&p=.htm">Weekly Vs. Weekend</a></li>
+<li><a href="/weekly/chart/?view=screens&yr=2008&wk=40&p=.htm">Screens &amp; Showings</a></li>
+<li><a href="/weekly/chart/?view=studiosum&yr=2008&wk=40&p=.htm">Studio Summary</a></li>
+</ul>
+<br><center><table border="0 cellspacing="0" cellpadding="0"><tr><td width="25%"><font face="Verdana" size="1"><a href="/weekly/chart/?view=&yr=2008&wk=39&p=.htm"><b>&lt;&lt;Last Week</a> <a href="/weekly/chart/?view=&yr=2007&wk=40&p=.htm">&lt;Last Year</a></b></font></td><td align="center" width="50%"><font face="Verdana" size="1"><b>View Index: <a href="/weekly/?yr=2008&p=.htm">By Year</a> | <a href="/weekly/?view=wk&wk=40&p=.htm">By Week</a></b></font></td><td align="right" width="25%"><font face="Verdana" size="1"><b><a href="/weekly/chart/?view=&yr=2009&wk=40&p=.htm">Next Year&gt;</a> <a href="/weekly/chart/?view=&yr=2008&wk=41&p=.htm">Next Week&gt;&gt;</a></b></font></td></tr><tr><td colspan="3"><table border="0" cellspacing="1" cellpadding="5"><tr bgcolor="#dcdcdc"><td align="center"><font size="1"><a href="/weekly/chart/?sort=tw&order=ASC&p=.htm">TW</a></font></td><td align="center"><font size="1"><a href="/weekly/chart/?sort=lw&order=ASC&p=.htm">LW</a></font></td><td align="center"><font size="1"><a href="/weekly/chart/?sort=title&order=ASC&p=.htm">Title (Click to view)</a></font></td><td align="center"><font size="1"><a href="/weekly/chart/?sort=studio&order=ASC&p=.htm">Studio</a></font></td><td align="center"><font size="1"><a href="/weekly/chart/?sort=gross&order=ASC&p=.htm"><b>Weekly Gross</b></a></font></td><td align="center"><font size="1"><a href="/weekly/chart/?sort=percentchange&order=DESC&p=.htm">% Change</a></font></td><td align="center" colspan="2"><font size="1"><a href="/weekly/chart/?sort=theaters&order=DESC&p=.htm">Theater Count</a> / </font><font size="1"><a href="/weekly/chart/?sort=theaterchange&order=DESC&p=.htm">Change</a></font></td><td align="center"><font size="1"><a href="/weekly/chart/?sort=theateravg&order=DESC&p=.htm">Average</a></font></td><td align="center"><font size="1"><a href="/weekly/chart/?sort=totalgross&order=DESC&p=.htm">Total Gross</a></font></td><td align="center"><font size="1"><a href="/weekly/chart/?sort=productcost&order=DESC&p=.htm">Budget*</a></font></td><td align="center"><font size="1"><a href="/weekly/chart/?sort=weeknumber&order=DESC&p=.htm">Week #</a></font></td></tr><tr bgcolor="#ffff99"><td align="center"><font size="2">1</font></td>
+<td align="center"><font size="2">N</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=beverlyhillschihuahua.htm"><b>Beverly Hills Chihuahua</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=buenavista.htm">BV</a></font></td>
+<td align="right"><font size="2">$35,030,233</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">3,215</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$10,896</font></td>
+<td align="right"><font size="2">$35,030,233</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">1</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">2</font></td>
+<td align="center"><font size="2">1</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=eagleeye.htm"><b>Eagle Eye</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=pardw.htm">P/DW</a></font></td>
+<td align="right"><font size="2">$22,591,513</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-38.8%</font></font></td>
+<td align="right"><font size="2">3,516</font></td>
+<td align="right"><font size="2">+6</font></td>
+<td align="right"><font size="2">$6,425</font></td>
+<td align="right"><font size="2">$59,496,217</font></td>
+<td align="right" nowrap><font size="2">$80</font></td>
+<td align="center"><font size="2">2</font></td>
+</tr>
+
+<tr bgcolor="#ffff99"><td align="center"><font size="2">3</font></td>
+<td align="center"><font size="2">N</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=nickandnorahsinfiniteplaylist.htm"><b>Nick and Norah's Infinite Playlist</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=sony.htm">Sony</a></font></td>
+<td align="right"><font size="2">$14,310,234</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">2,421</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$5,911</font></td>
+<td align="right"><font size="2">$14,310,234</font></td>
+<td align="right" nowrap><font size="2">$10</font></td>
+<td align="center"><font size="2">1</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">4</font></td>
+<td align="center"><font size="2">2</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=nightsinrodanthe.htm"><b>Nights in Rodanthe</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=warnerbros.htm">WB</a></font></td>
+<td align="right"><font size="2">$10,035,976</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-43.4%</font></font></td>
+<td align="right"><font size="2">2,702</font></td>
+<td align="right"><font size="2">-2</font></td>
+<td align="right"><font size="2">$3,714</font></td>
+<td align="right"><font size="2">$27,755,900</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">2</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">5</font></td>
+<td align="center"><font size="2">34</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=appaloosa.htm"><b>Appaloosa</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=wb-newline.htm">WB (NL)</a></font></td>
+<td align="right"><font size="2">$6,991,447</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+3,061.3%</font></font></td>
+<td align="right"><font size="2">1,045</font></td>
+<td align="right"><font size="2">+1,031</font></td>
+<td align="right"><font size="2">$6,690</font></td>
+<td align="right"><font size="2">$7,546,304</font></td>
+<td align="right" nowrap><font size="2">$20</font></td>
+<td align="center"><font size="2">3</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">6</font></td>
+<td align="center"><font size="2">3</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=lakeviewterrace.htm"><b>Lakeview Terrace</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=screengems.htm">SGem</a></font></td>
+<td align="right"><font size="2">$5,907,057</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-33.9%</font></font></td>
+<td align="right"><font size="2">2,574</font></td>
+<td align="right"><font size="2">+107</font></td>
+<td align="right"><font size="2">$2,295</font></td>
+<td align="right"><font size="2">$33,547,085</font></td>
+<td align="right" nowrap><font size="2">$20</font></td>
+<td align="center"><font size="2">3</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">7</font></td>
+<td align="center"><font size="2">5</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=burnafterreading.htm"><b>Burn After Reading</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=focus.htm">Focus</a></font></td>
+<td align="right"><font size="2">$5,523,778</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-32.5%</font></font></td>
+<td align="right"><font size="2">2,397</font></td>
+<td align="right"><font size="2">-252</font></td>
+<td align="right"><font size="2">$2,304</font></td>
+<td align="right"><font size="2">$53,081,752</font></td>
+<td align="right" nowrap><font size="2">$37</font></td>
+<td align="center"><font size="2">4</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">8</font></td>
+<td align="center"><font size="2">4</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=fireproof.htm"><b>Fireproof</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=samuelgoldwyn.htm">Gold.</a></font></td>
+<td align="right"><font size="2">$5,312,061</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-36.9%</font></font></td>
+<td align="right"><font size="2">852</font></td>
+<td align="right"><font size="2">+13</font></td>
+<td align="right"><font size="2">$6,235</font></td>
+<td align="right"><font size="2">$13,734,768</font></td>
+<td align="right" nowrap><font size="2">$0.5</font></td>
+<td align="center"><font size="2">2</font></td>
+</tr>
+
+<tr bgcolor="#ffff99"><td align="center"><font size="2">9</font></td>
+<td align="center"><font size="2">N</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=americancarol.htm"><b>An American Carol</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=vivendientertainment.htm">Viv.</a></font></td>
+<td align="right"><font size="2">$4,576,000</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">1,639</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$2,792</font></td>
+<td align="right"><font size="2">$4,576,000</font></td>
+<td align="right" nowrap><font size="2">$20</font></td>
+<td align="center"><font size="2">1</font></td>
+</tr>
+
+<tr bgcolor="#ffff99"><td align="center"><font size="2">10</font></td>
+<td align="center"><font size="2">71</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=religulous.htm"><b>Religulous</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=lionsgate.htm">LGF</a></font></td>
+<td align="right"><font size="2">$4,482,743</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+23,505.8%</font></font></td>
+<td align="right"><font size="2">502</font></td>
+<td align="right"><font size="2">+500</font></td>
+<td align="right"><font size="2">$8,930</font></td>
+<td align="right"><font size="2">$4,501,733</font></td>
+<td align="right" nowrap><font size="2">$2.5</font></td>
+<td align="center"><font size="2">1</font></td>
+</tr>
+
+<tr bgcolor="#ffff99"><td align="center"><font size="2">11</font></td>
+<td align="center"><font size="2">N</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=flashofgenius.htm"><b>Flash of Genius</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=universal.htm">Uni.</a></font></td>
+<td align="right"><font size="2">$2,877,010</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">1,098</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$2,620</font></td>
+<td align="right"><font size="2">$2,877,010</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">1</font></td>
+</tr>
+
+<tr bgcolor="#ffff99"><td align="center"><font size="2">12</font></td>
+<td align="center"><font size="2">N</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=blindness08.htm"><b>Blindness</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=miramax.htm">Mira.</a></font></td>
+<td align="right"><font size="2">$2,586,666</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">1,690</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$1,531</font></td>
+<td align="right"><font size="2">$2,586,666</font></td>
+<td align="right" nowrap><font size="2">$25</font></td>
+<td align="center"><font size="2">1</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">13</font></td>
+<td align="center"><font size="2">9</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=miracleatstanna.htm"><b>Miracle at St. Anna</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=buenavista.htm">BV</a></font></td>
+<td align="right"><font size="2">$2,368,389</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-48.4%</font></font></td>
+<td align="right"><font size="2">1,185</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$1,999</font></td>
+<td align="right"><font size="2">$6,961,779</font></td>
+<td align="right" nowrap><font size="2">$45</font></td>
+<td align="center"><font size="2">2</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">14</font></td>
+<td align="center"><font size="2">8</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=righteouskill.htm"><b>Righteous Kill</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=overturefilms.htm">Over.</a></font></td>
+<td align="right"><font size="2">$2,235,331</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-56.0%</font></font></td>
+<td align="right"><font size="2">1,789</font></td>
+<td align="right"><font size="2">-1,222</font></td>
+<td align="right"><font size="2">$1,249</font></td>
+<td align="right"><font size="2">$38,321,412</font></td>
+<td align="right" nowrap><font size="2">$60</font></td>
+<td align="center"><font size="2">4</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">15</font></td>
+<td align="center"><font size="2">7</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=mybestfriendsgirl.htm"><b>My Best Friend's Girl</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=lionsgate.htm">LGF</a></font></td>
+<td align="right"><font size="2">$2,220,687</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-58.3%</font></font></td>
+<td align="right"><font size="2">1,702</font></td>
+<td align="right"><font size="2">-934</font></td>
+<td align="right"><font size="2">$1,305</font></td>
+<td align="right"><font size="2">$18,268,370</font></td>
+<td align="right" nowrap><font size="2">$20</font></td>
+<td align="center"><font size="2">3</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">16</font></td>
+<td align="center"><font size="2">6</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=igor.htm"><b>Igor</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=mgm.htm">MGM</a></font></td>
+<td align="right"><font size="2">$2,179,352</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-66.4%</font></font></td>
+<td align="right"><font size="2">2,332</font></td>
+<td align="right"><font size="2">-9</font></td>
+<td align="right"><font size="2">$935</font></td>
+<td align="right"><font size="2">$17,513,444</font></td>
+<td align="right" nowrap><font size="2">$25</font></td>
+<td align="center"><font size="2">3</font></td>
+</tr>
+
+<tr bgcolor="#ffff99"><td align="center"><font size="2">17</font></td>
+<td align="center"><font size="2">N</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=howtolosefriends.htm"><b>How to Lose Friends and Alienate People</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=mgm.htm">MGM</a></font></td>
+<td align="right"><font size="2">$2,018,026</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">1,750</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$1,153</font></td>
+<td align="right"><font size="2">$2,018,026</font></td>
+<td align="right" nowrap><font size="2">$28</font></td>
+<td align="center"><font size="2">1</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">18</font></td>
+<td align="center"><font size="2">10</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=familythatpreys.htm"><b>Tyler Perry's The Family That Preys</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=lionsgate.htm">LGF</a></font></td>
+<td align="right"><font size="2">$1,963,344</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-50.5%</font></font></td>
+<td align="right"><font size="2">933</font></td>
+<td align="right"><font size="2">-671</font></td>
+<td align="right"><font size="2">$2,104</font></td>
+<td align="right"><font size="2">$35,565,122</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">4</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">19</font></td>
+<td align="center"><font size="2">11</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=ghosttown.htm"><b>Ghost Town</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=pardw.htm">P/DW</a></font></td>
+<td align="right"><font size="2">$1,940,969</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-48.5%</font></font></td>
+<td align="right"><font size="2">1,456</font></td>
+<td align="right"><font size="2">-56</font></td>
+<td align="right"><font size="2">$1,333</font></td>
+<td align="right"><font size="2">$11,997,819</font></td>
+<td align="right" nowrap><font size="2">$20</font></td>
+<td align="center"><font size="2">3</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">20</font></td>
+<td align="center"><font size="2">19</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=duchess.htm"><b>The Duchess</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=paramountvantage.htm">ParV</a></font></td>
+<td align="right"><font size="2">$1,241,424</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+57.2%</font></font></td>
+<td align="right"><font size="2">127</font></td>
+<td align="right"><font size="2">+72</font></td>
+<td align="right"><font size="2">$9,775</font></td>
+<td align="right"><font size="2">$2,298,220</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">3</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">21</font></td>
+<td align="center"><font size="2">13</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=darkknight.htm"><b>The Dark Knight</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=warnerbros.htm">WB</a></font></td>
+<td align="right"><font size="2">$1,159,412</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-47.1%</font></font></td>
+<td align="right"><font size="2">663</font></td>
+<td align="right"><font size="2">-743</font></td>
+<td align="right"><font size="2">$1,749</font></td>
+<td align="right"><font size="2">$526,162,586</font></td>
+<td align="right" nowrap><font size="2">$185</font></td>
+<td align="center"><font size="2">12</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">22</font></td>
+<td align="center"><font size="2">12</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=women08.htm"><b>The Women (2008)</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=picturehouse.htm">PicH</a></font></td>
+<td align="right"><font size="2">$1,067,846</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-71.6%</font></font></td>
+<td align="right"><font size="2">1,139</font></td>
+<td align="right"><font size="2">-1,503</font></td>
+<td align="right"><font size="2">$938</font></td>
+<td align="right"><font size="2">$26,259,127</font></td>
+<td align="right" nowrap><font size="2">$16</font></td>
+<td align="center"><font size="2">4</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">23</font></td>
+<td align="center"><font size="2">14</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=choke.htm"><b>Choke</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=foxsearchlight.htm">FoxS</a></font></td>
+<td align="right"><font size="2">$748,307</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-58.6%</font></font></td>
+<td align="right"><font size="2">432</font></td>
+<td align="right"><font size="2">-3</font></td>
+<td align="right"><font size="2">$1,732</font></td>
+<td align="right"><font size="2">$2,556,641</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">2</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">24</font></td>
+<td align="center"><font size="2">17</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=vickycristinabarcelona.htm"><b>Vicky Cristina Barcelona</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=mgmweinstein.htm">MGM/W</a></font></td>
+<td align="right"><font size="2">$539,198</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-40.6%</font></font></td>
+<td align="right"><font size="2">221</font></td>
+<td align="right"><font size="2">-222</font></td>
+<td align="right"><font size="2">$2,440</font></td>
+<td align="right"><font size="2">$21,193,195</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">8</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">25</font></td>
+<td align="center"><font size="2">15</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=housebunny.htm"><b>The House Bunny</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=sony.htm">Sony</a></font></td>
+<td align="right"><font size="2">$451,736</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-71.1%</font></font></td>
+<td align="right"><font size="2">695</font></td>
+<td align="right"><font size="2">-1,223</font></td>
+<td align="right"><font size="2">$650</font></td>
+<td align="right"><font size="2">$48,125,996</font></td>
+<td align="right" nowrap><font size="2">$25</font></td>
+<td align="center"><font size="2">7</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">26</font></td>
+<td align="center"><font size="2">16</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=tropicthunder.htm"><b>Tropic Thunder</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=pardw.htm">P/DW</a></font></td>
+<td align="right"><font size="2">$435,428</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-72.1%</font></font></td>
+<td align="right"><font size="2">485</font></td>
+<td align="right"><font size="2">-869</font></td>
+<td align="right"><font size="2">$898</font></td>
+<td align="right"><font size="2">$109,580,997</font></td>
+<td align="right" nowrap><font size="2">$92</font></td>
+<td align="center"><font size="2">8</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">27</font></td>
+<td align="center"><font size="2">18</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=mammamia.htm"><b>Mamma Mia!</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=universal.htm">Uni.</a></font></td>
+<td align="right"><font size="2">$422,030</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-48.6%</font></font></td>
+<td align="right"><font size="2">382</font></td>
+<td align="right"><font size="2">-335</font></td>
+<td align="right"><font size="2">$1,105</font></td>
+<td align="right"><font size="2">$142,861,475</font></td>
+<td align="right" nowrap><font size="2">$52</font></td>
+<td align="center"><font size="2">12</font></td>
+</tr>
+
+<tr bgcolor="#ffff99"><td align="center"><font size="2">28</font></td>
+<td align="center"><font size="2">N</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=rachelgettingmarried.htm"><b>Rachel Getting Married</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=sonyclassics.htm">SPC</a></font></td>
+<td align="right"><font size="2">$418,118</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">9</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$46,458</font></td>
+<td align="right"><font size="2">$418,118</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">1</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">29</font></td>
+<td align="center"><font size="2">24</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=wall-e.htm"><b>WALL-E</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=buenavista.htm">BV</a></font></td>
+<td align="right"><font size="2">$268,850</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-17.8%</font></font></td>
+<td align="right"><font size="2">226</font></td>
+<td align="right"><font size="2">-82</font></td>
+<td align="right"><font size="2">$1,190</font></td>
+<td align="right"><font size="2">$221,186,427</font></td>
+<td align="right" nowrap><font size="2">$180</font></td>
+<td align="center"><font size="2">15</font></td>
+</tr>
+
+<tr bgcolor="#ffff99"><td align="center"><font size="2">30</font></td>
+<td align="center"><font size="2">59</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=drona.htm"><b>Drona</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=eros.htm">Eros</a></font></td>
+<td align="right"><font size="2">$257,873</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+573.0%</font></font></td>
+<td align="right"><font size="2">90</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$2,865</font></td>
+<td align="right"><font size="2">$296,191</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">1</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">31</font></td>
+<td align="center"><font size="2">20</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=journeytothecenteroftheearth.htm"><b>Journey to the Center of the Earth</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=wb-newline.htm">WB (NL)</a></font></td>
+<td align="right"><font size="2">$238,374</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-63.7%</font></font></td>
+<td align="right"><font size="2">210</font></td>
+<td align="right"><font size="2">-300</font></td>
+<td align="right"><font size="2">$1,135</font></td>
+<td align="right"><font size="2">$100,161,530</font></td>
+<td align="right" nowrap><font size="2">$60</font></td>
+<td align="center"><font size="2">13</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">32</font></td>
+<td align="center"><font size="2">22</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=deathrace.htm"><b>Death Race</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=universal.htm">Uni.</a></font></td>
+<td align="right"><font size="2">$216,690</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-60.6%</font></font></td>
+<td align="right"><font size="2">266</font></td>
+<td align="right"><font size="2">-401</font></td>
+<td align="right"><font size="2">$815</font></td>
+<td align="right"><font size="2">$35,995,330</font></td>
+<td align="right" nowrap><font size="2">$45</font></td>
+<td align="center"><font size="2">7</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">33</font></td>
+<td align="center"><font size="2">25</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=getsmart.htm"><b>Get Smart</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=warnerbros.htm">WB</a></font></td>
+<td align="right"><font size="2">$198,298</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-37.7%</font></font></td>
+<td align="right"><font size="2">265</font></td>
+<td align="right"><font size="2">-36</font></td>
+<td align="right"><font size="2">$748</font></td>
+<td align="right"><font size="2">$130,091,364</font></td>
+<td align="right" nowrap><font size="2">$80</font></td>
+<td align="center"><font size="2">16</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">34</font></td>
+<td align="center"><font size="2">32</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=kungfupanda.htm"><b>Kung Fu Panda</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=pardw.htm">P/DW</a></font></td>
+<td align="right"><font size="2">$183,371</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-26.9%</font></font></td>
+<td align="right"><font size="2">250</font></td>
+<td align="right"><font size="2">-44</font></td>
+<td align="right"><font size="2">$733</font></td>
+<td align="right"><font size="2">$215,434,591</font></td>
+<td align="right" nowrap><font size="2">$130</font></td>
+<td align="center"><font size="2">18</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">35</font></td>
+<td align="center"><font size="2">21</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=flymetothemoon3d.htm"><b>Fly Me to the Moon</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=summitentertainment.htm">Sum.</a></font></td>
+<td align="right"><font size="2">$179,620</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-72.0%</font></font></td>
+<td align="right"><font size="2">178</font></td>
+<td align="right"><font size="2">-253</font></td>
+<td align="right"><font size="2">$1,009</font></td>
+<td align="right"><font size="2">$11,954,204</font></td>
+<td align="right" nowrap><font size="2">$25</font></td>
+<td align="center"><font size="2">8</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">36</font></td>
+<td align="center"><font size="2">26</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=mirrors.htm"><b>Mirrors</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=fox.htm">Fox</a></font></td>
+<td align="right"><font size="2">$160,009</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-49.6%</font></font></td>
+<td align="right"><font size="2">203</font></td>
+<td align="right"><font size="2">-159</font></td>
+<td align="right"><font size="2">$788</font></td>
+<td align="right"><font size="2">$30,453,643</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">8</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">37</font></td>
+<td align="center"><font size="2">23</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=traitor.htm"><b>Traitor</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=overturefilms.htm">Over.</a></font></td>
+<td align="right"><font size="2">$137,473</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-61.8%</font></font></td>
+<td align="right"><font size="2">188</font></td>
+<td align="right"><font size="2">-408</font></td>
+<td align="right"><font size="2">$731</font></td>
+<td align="right"><font size="2">$23,184,446</font></td>
+<td align="right" nowrap><font size="2">$22</font></td>
+<td align="center"><font size="2">6</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">38</font></td>
+<td align="center"><font size="2">35</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=tellnoone.htm"><b>Tell No One</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=musicboxfilms.htm">MBox</a></font></td>
+<td align="right"><font size="2">$133,049</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-35.4%</font></font></td>
+<td align="right"><font size="2">77</font></td>
+<td align="right"><font size="2">-21</font></td>
+<td align="right"><font size="2">$1,728</font></td>
+<td align="right"><font size="2">$5,674,452</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">14</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">39</font></td>
+<td align="center"><font size="2">28</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=babylon.htm"><b>Babylon A.D.</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=fox.htm">Fox</a></font></td>
+<td align="right"><font size="2">$131,017</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-55.0%</font></font></td>
+<td align="right"><font size="2">155</font></td>
+<td align="right"><font size="2">-268</font></td>
+<td align="right"><font size="2">$845</font></td>
+<td align="right"><font size="2">$22,361,714</font></td>
+<td align="right" nowrap><font size="2">$70</font></td>
+<td align="center"><font size="2">6</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">40</font></td>
+<td align="center"><font size="2">36</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=spacechimps.htm"><b>Space Chimps</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=fox.htm">Fox</a></font></td>
+<td align="right"><font size="2">$127,709</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-34.7%</font></font></td>
+<td align="right"><font size="2">232</font></td>
+<td align="right"><font size="2">-51</font></td>
+<td align="right"><font size="2">$550</font></td>
+<td align="right"><font size="2">$29,968,680</font></td>
+<td align="right" nowrap><font size="2">$37</font></td>
+<td align="center"><font size="2">12</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">41</font></td>
+<td align="center"><font size="2">66</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=swingvote.htm"><b>Swing Vote</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=buenavista.htm">BV</a></font></td>
+<td align="right"><font size="2">$113,780</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+366.1%</font></font></td>
+<td align="right"><font size="2">176</font></td>
+<td align="right"><font size="2">+97</font></td>
+<td align="right"><font size="2">$646</font></td>
+<td align="right"><font size="2">$16,253,658</font></td>
+<td align="right" nowrap><font size="2">$21</font></td>
+<td align="center"><font size="2">10</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">42</font></td>
+<td align="center"><font size="2">41</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=manonwire.htm"><b>Man on Wire</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=magnolia.htm">Magn.</a></font></td>
+<td align="right"><font size="2">$106,918</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-29.0%</font></font></td>
+<td align="right"><font size="2">65</font></td>
+<td align="right"><font size="2">-16</font></td>
+<td align="right"><font size="2">$1,645</font></td>
+<td align="right"><font size="2">$2,546,852</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">11</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">43</font></td>
+<td align="center"><font size="2">27</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=foreverstrong.htm"><b>Forever Strong</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=cranemoviecompany.htm">Crane</a></font></td>
+<td align="right"><font size="2">$105,397</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-66.8%</font></font></td>
+<td align="right"><font size="2">65</font></td>
+<td align="right"><font size="2">-194</font></td>
+<td align="right"><font size="2">$1,621</font></td>
+<td align="right"><font size="2">$463,730</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">3</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">44</font></td>
+<td align="center"><font size="2">39</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=elegy.htm"><b>Elegy</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=samuelgoldwyn.htm">Gold.</a></font></td>
+<td align="right"><font size="2">$102,115</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-37.7%</font></font></td>
+<td align="right"><font size="2">70</font></td>
+<td align="right"><font size="2">-31</font></td>
+<td align="right"><font size="2">$1,459</font></td>
+<td align="right"><font size="2">$3,411,500</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">9</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">45</font></td>
+<td align="center"><font size="2">37</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=indianajones4.htm"><b>Indiana Jones and the Kingdom of the Crystal Skull</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=paramount.htm">Par.</a></font></td>
+<td align="right"><font size="2">$94,581</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-46.4%</font></font></td>
+<td align="right"><font size="2">128</font></td>
+<td align="right"><font size="2">-76</font></td>
+<td align="right"><font size="2">$739</font></td>
+<td align="right"><font size="2">$316,979,453</font></td>
+<td align="right" nowrap><font size="2">$185</font></td>
+<td align="center"><font size="2">20</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">46</font></td>
+<td align="center"><font size="2">33</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=starwarsclonewars.htm"><b>Star Wars: The Clone Wars</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=warnerbros.htm">WB</a></font></td>
+<td align="right"><font size="2">$85,083</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-63.2%</font></font></td>
+<td align="right"><font size="2">166</font></td>
+<td align="right"><font size="2">-149</font></td>
+<td align="right"><font size="2">$513</font></td>
+<td align="right"><font size="2">$34,871,515</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">8</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">47</font></td>
+<td align="center"><font size="2">44</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=frozenriver.htm"><b>Frozen River</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=sonyclassics.htm">SPC</a></font></td>
+<td align="right"><font size="2">$83,172</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-33.1%</font></font></td>
+<td align="right"><font size="2">57</font></td>
+<td align="right"><font size="2">-19</font></td>
+<td align="right"><font size="2">$1,459</font></td>
+<td align="right"><font size="2">$2,020,736</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">10</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">48</font></td>
+<td align="center"><font size="2">45</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=transsiberian.htm"><b>Transsiberian</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=firstlook.htm">First</a></font></td>
+<td align="right"><font size="2">$76,278</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-36.2%</font></font></td>
+<td align="right"><font size="2">58</font></td>
+<td align="right"><font size="2">-24</font></td>
+<td align="right"><font size="2">$1,315</font></td>
+<td align="right"><font size="2">$2,046,745</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">12</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">49</font></td>
+<td align="center"><font size="2">29</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=disastermovie.htm"><b>Disaster Movie</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=lionsgate.htm">LGF</a></font></td>
+<td align="right"><font size="2">$76,107</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-73.4%</font></font></td>
+<td align="right"><font size="2">140</font></td>
+<td align="right"><font size="2">-262</font></td>
+<td align="right"><font size="2">$544</font></td>
+<td align="right"><font size="2">$14,083,289</font></td>
+<td align="right" nowrap><font size="2">$20</font></td>
+<td align="center"><font size="2">6</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">50</font></td>
+<td align="center"><font size="2">47</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=deepsea3d.htm"><b>Deep Sea 3D (IMAX)</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=warnerbros.htm">WB</a></font></td>
+<td align="right"><font size="2">$73,664</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-11.4%</font></font></td>
+<td align="right"><font size="2">10</font></td>
+<td align="right"><font size="2">+2</font></td>
+<td align="right"><font size="2">$7,366</font></td>
+<td align="right"><font size="2">$36,502,762</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">136</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">51</font></td>
+<td align="center"><font size="2">30</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=bangkokdangerous.htm"><b>Bangkok Dangerous</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=lionsgate.htm">LGF</a></font></td>
+<td align="right"><font size="2">$65,880</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-75.9%</font></font></td>
+<td align="right"><font size="2">103</font></td>
+<td align="right"><font size="2">-293</font></td>
+<td align="right"><font size="2">$640</font></td>
+<td align="right"><font size="2">$15,215,806</font></td>
+<td align="right" nowrap><font size="2">$45</font></td>
+<td align="center"><font size="2">5</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">52</font></td>
+<td align="center"><font size="2">46</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=seamonsters.htm"><b>Sea Monsters: A Prehistoric Adventure (IMAX)</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=nationalgeographiccinema.htm">NGE</a></font></td>
+<td align="right"><font size="2">$63,005</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-36.3%</font></font></td>
+<td align="right"><font size="2">30</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$2,100</font></td>
+<td align="right"><font size="2">$19,168,884</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">53</font></td>
+</tr>
+
+<tr bgcolor="#ffff99"><td align="center"><font size="2">53</font></td>
+<td align="center"><font size="2">N</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=allahmademefunny.htm"><b>Allah Made Me Funny</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=unknown.htm">N/A</a></font></td>
+<td align="right"><font size="2">$62,577</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">14</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$4,470</font></td>
+<td align="right"><font size="2">$62,577</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">1</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">54</font></td>
+<td align="center"><font size="2">42</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=magnificentdesolationimax.htm"><b>Magnificent Desolation (IMAX)</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=imax.htm">IMAX</a></font></td>
+<td align="right"><font size="2">$62,391</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-52.2%</font></font></td>
+<td align="right"><font size="2">6</font></td>
+<td align="right"><font size="2">+2</font></td>
+<td align="right"><font size="2">$10,399</font></td>
+<td align="right"><font size="2">$26,153,917</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">159</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">55</font></td>
+<td align="center"><font size="2">-</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=rocknrolla.htm"><b>RockNRolla</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=warnerbros.htm">WB</a></font></td>
+<td align="right"><font size="2">$58,885</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">7</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$8,412</font></td>
+<td align="right"><font size="2">$58,885</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">-</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">56</font></td>
+<td align="center"><font size="2">43</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=longshots.htm"><b>The Longshots</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=mgmweinstein.htm">MGM/W</a></font></td>
+<td align="right"><font size="2">$46,891</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-62.5%</font></font></td>
+<td align="right"><font size="2">102</font></td>
+<td align="right"><font size="2">-125</font></td>
+<td align="right"><font size="2">$460</font></td>
+<td align="right"><font size="2">$11,308,333</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">7</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">57</font></td>
+<td align="center"><font size="2">61</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=spacestation3dimax.htm"><b>Space Station 3-D (IMAX)</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=imax.htm">IMAX</a></font></td>
+<td align="right"><font size="2">$44,663</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+43.1%</font></font></td>
+<td align="right"><font size="2">6</font></td>
+<td align="right"><font size="2">-15</font></td>
+<td align="right"><font size="2">$7,444</font></td>
+<td align="right"><font size="2">$76,691,510</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">338</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">58</font></td>
+<td align="center"><font size="2">54</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=asecret.htm"><b>A Secret</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=strand.htm">Strand</a></font></td>
+<td align="right"><font size="2">$43,838</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-7.1%</font></font></td>
+<td align="right"><font size="2">8</font></td>
+<td align="right"><font size="2">+1</font></td>
+<td align="right"><font size="2">$5,480</font></td>
+<td align="right"><font size="2">$268,323</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">5</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">59</font></td>
+<td align="center"><font size="2">63</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=childrenofhuangshi.htm"><b>The Children of Huang Shi</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=sonyclassics.htm">SPC</a></font></td>
+<td align="right"><font size="2">$41,628</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+52.4%</font></font></td>
+<td align="right"><font size="2">40</font></td>
+<td align="right"><font size="2">+18</font></td>
+<td align="right"><font size="2">$1,041</font></td>
+<td align="right"><font size="2">$1,019,417</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">20</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">60</font></td>
+<td align="center"><font size="2">50</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=bottleshock.htm"><b>Bottle Shock</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=fs.htm">Free</a></font></td>
+<td align="right"><font size="2">$39,718</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-43.0%</font></font></td>
+<td align="right"><font size="2">30</font></td>
+<td align="right"><font size="2">-31</font></td>
+<td align="right"><font size="2">$1,324</font></td>
+<td align="right"><font size="2">$3,999,586</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">9</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">61</font></td>
+<td align="center"><font size="2">51</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=battleinseattle.htm"><b>Battle in Seattle</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=redwoodpalmspictures.htm">RedP</a></font></td>
+<td align="right"><font size="2">$39,651</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-42.0%</font></font></td>
+<td align="right"><font size="2">36</font></td>
+<td align="right"><font size="2">+14</font></td>
+<td align="right"><font size="2">$1,101</font></td>
+<td align="right"><font size="2">$178,975</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">3</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">62</font></td>
+<td align="center"><font size="2">53</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=troublethewater.htm"><b>Trouble the Water</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=zeitgeist.htm">Zeit.</a></font></td>
+<td align="right"><font size="2">$37,841</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-21.6%</font></font></td>
+<td align="right"><font size="2">13</font></td>
+<td align="right"><font size="2">-1</font></td>
+<td align="right"><font size="2">$2,911</font></td>
+<td align="right"><font size="2">$338,477</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">7</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">63</font></td>
+<td align="center"><font size="2">48</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=travelingpants2.htm"><b>The Sisterhood of the Traveling Pants 2</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=warnerbros.htm">WB</a></font></td>
+<td align="right"><font size="2">$35,718</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-56.5%</font></font></td>
+<td align="right"><font size="2">80</font></td>
+<td align="right"><font size="2">-80</font></td>
+<td align="right"><font size="2">$446</font></td>
+<td align="right"><font size="2">$43,916,103</font></td>
+<td align="right" nowrap><font size="2">$27</font></td>
+<td align="center"><font size="2">9</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">64</font></td>
+<td align="center"><font size="2">40</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=towelhead.htm"><b>Towelhead</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=wip.htm">WIP</a></font></td>
+<td align="right"><font size="2">$35,047</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-78.6%</font></font></td>
+<td align="right"><font size="2">38</font></td>
+<td align="right"><font size="2">-62</font></td>
+<td align="right"><font size="2">$922</font></td>
+<td align="right"><font size="2">$361,748</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">4</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">65</font></td>
+<td align="center"><font size="2">55</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=dolphinsandwhales3d.htm"><b>Dolphins and Whales: Tribes of the Ocean 3D</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=3dentertainment.htm">3D</a></font></td>
+<td align="right"><font size="2">$30,839</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-29.6%</font></font></td>
+<td align="right"><font size="2">7</font></td>
+<td align="right"><font size="2">-3</font></td>
+<td align="right"><font size="2">$4,406</font></td>
+<td align="right"><font size="2">$4,791,534</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">34</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">66</font></td>
+<td align="center"><font size="2">69</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=girlcutintwo.htm"><b>A Girl Cut in Two</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=ifc.htm">IFC</a></font></td>
+<td align="right"><font size="2">$28,476</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+24.8%</font></font></td>
+<td align="right"><font size="2">13</font></td>
+<td align="right"><font size="2">-1</font></td>
+<td align="right"><font size="2">$2,190</font></td>
+<td align="right"><font size="2">$285,739</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">8</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">67</font></td>
+<td align="center"><font size="2">52</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=iservedthekingofengland.htm"><b>I Served the King of England</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=sonyclassics.htm">SPC</a></font></td>
+<td align="right"><font size="2">$26,845</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-52.7%</font></font></td>
+<td align="right"><font size="2">17</font></td>
+<td align="right"><font size="2">-13</font></td>
+<td align="right"><font size="2">$1,579</font></td>
+<td align="right"><font size="2">$455,517</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">6</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">68</font></td>
+<td align="center"><font size="2">56</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=humboldtcounty.htm"><b>Humboldt County</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=magnolia.htm">Magn.</a></font></td>
+<td align="right"><font size="2">$23,602</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-40.0%</font></font></td>
+<td align="right"><font size="2">9</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$2,622</font></td>
+<td align="right"><font size="2">$62,955</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">2</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">69</font></td>
+<td align="center"><font size="2">64</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=beerformyhorses.htm"><b>Beer for My Horses</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=roadsideattractions.htm">RAtt.</a></font></td>
+<td align="right"><font size="2">$20,109</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-23.3%</font></font></td>
+<td align="right"><font size="2">37</font></td>
+<td align="right"><font size="2">-17</font></td>
+<td align="right"><font size="2">$543</font></td>
+<td align="right"><font size="2">$642,772</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">9</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">70</font></td>
+<td align="center"><font size="2">62</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=thousandyearsofgoodprayers.htm"><b>A Thousand Years of Good Prayers</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=magnolia.htm">Magn.</a></font></td>
+<td align="right"><font size="2">$18,997</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-35.9%</font></font></td>
+<td align="right"><font size="2">7</font></td>
+<td align="right"><font size="2">+1</font></td>
+<td align="right"><font size="2">$2,714</font></td>
+<td align="right"><font size="2">$63,110</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">3</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">71</font></td>
+<td align="center"><font size="2">73</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=marsimax.htm"><b>Roving Mars (IMAX)</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=buenavista.htm">BV</a></font></td>
+<td align="right"><font size="2">$18,477</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+16.6%</font></font></td>
+<td align="right"><font size="2">4</font></td>
+<td align="right"><font size="2">-1</font></td>
+<td align="right"><font size="2">$4,619</font></td>
+<td align="right"><font size="2">$9,638,855</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">141</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">72</font></td>
+<td align="center"><font size="2">78</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=hounddog.htm"><b>Hounddog</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=empirepictures.htm">Emp.</a></font></td>
+<td align="right"><font size="2">$16,266</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+20.0%</font></font></td>
+<td align="right"><font size="2">5</font></td>
+<td align="right"><font size="2">+1</font></td>
+<td align="right"><font size="2">$3,253</font></td>
+<td align="right"><font size="2">$49,081</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">3</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">73</font></td>
+<td align="center"><font size="2">75</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=boogieman08.htm"><b>Boogie Man: The Lee Atwater Story</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=interpositivemedia.htm">IPos.</a></font></td>
+<td align="right"><font size="2">$16,214</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+3.1%</font></font></td>
+<td align="right"><font size="2">4</font></td>
+<td align="right"><font size="2">+1</font></td>
+<td align="right"><font size="2">$4,054</font></td>
+<td align="right"><font size="2">$31,938</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">2</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">74</font></td>
+<td align="center"><font size="2">60</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=rocker.htm"><b>The Rocker</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=fox.htm">Fox</a></font></td>
+<td align="right"><font size="2">$16,053</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-52.3%</font></font></td>
+<td align="right"><font size="2">28</font></td>
+<td align="right"><font size="2">-51</font></td>
+<td align="right"><font size="2">$573</font></td>
+<td align="right"><font size="2">$6,406,356</font></td>
+<td align="right" nowrap><font size="2">$15</font></td>
+<td align="center"><font size="2">7</font></td>
+</tr>
+
+<tr bgcolor="#ffff99"><td align="center"><font size="2">75</font></td>
+<td align="center"><font size="2">106</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=ballast.htm"><b>Ballast</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=alluvialfilmcompany.htm">Allu.</a></font></td>
+<td align="right"><font size="2">$14,657</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+307.9%</font></font></td>
+<td align="right"><font size="2">1</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$14,657</font></td>
+<td align="right"><font size="2">$18,250</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">1</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">76</font></td>
+<td align="center"><font size="2">58</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=u23d.htm"><b>U2 3D</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=nationalgeographiccinema.htm">NGE</a></font></td>
+<td align="right"><font size="2">$14,405</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-62.7%</font></font></td>
+<td align="right"><font size="2">13</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$1,108</font></td>
+<td align="right"><font size="2">$9,554,546</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">37</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">77</font></td>
+<td align="center"><font size="2">65</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=kitkittredge.htm"><b>Kit Kittredge: An American Girl</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=picturehouse.htm">PicH</a></font></td>
+<td align="right"><font size="2">$11,032</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-56.9%</font></font></td>
+<td align="right"><font size="2">31</font></td>
+<td align="right"><font size="2">-22</font></td>
+<td align="right"><font size="2">$356</font></td>
+<td align="right"><font size="2">$17,657,973</font></td>
+<td align="right" nowrap><font size="2">$10</font></td>
+<td align="center"><font size="2">16</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">78</font></td>
+<td align="center"><font size="2">72</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=legendofgodsgun.htm"><b>The Legend of God's Gun</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=indican.htm">Indic.</a></font></td>
+<td align="right"><font size="2">$10,744</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-42.2%</font></font></td>
+<td align="right"><font size="2">2</font></td>
+<td align="right"><font size="2">-1</font></td>
+<td align="right"><font size="2">$5,372</font></td>
+<td align="right"><font size="2">$161,961</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">12</font></td>
+</tr>
+
+<tr bgcolor="#ffff99"><td align="center"><font size="2">79</font></td>
+<td align="center"><font size="2">N</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=pleasureofbeingrobbed.htm"><b>The Pleasure of Being Robbed</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=ifc.htm">IFC</a></font></td>
+<td align="right"><font size="2">$10,687</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">1</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$10,687</font></td>
+<td align="right"><font size="2">$10,687</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">1</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">80</font></td>
+<td align="center"><font size="2">70</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=flow08.htm"><b>FLOW: For Love of Water</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=oscilloscopepictures.htm">Osci.</a></font></td>
+<td align="right"><font size="2">$10,327</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-54.1%</font></font></td>
+<td align="right"><font size="2">6</font></td>
+<td align="right"><font size="2">-5</font></td>
+<td align="right"><font size="2">$1,721</font></td>
+<td align="right"><font size="2">$98,693</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">10</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">81</font></td>
+<td align="center"><font size="2">98</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=saveme.htm"><b>Save Me</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=firstrun.htm">FRun</a></font></td>
+<td align="right"><font size="2">$10,147</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+91.8%</font></font></td>
+<td align="right"><font size="2">5</font></td>
+<td align="right"><font size="2">+3</font></td>
+<td align="right"><font size="2">$2,029</font></td>
+<td align="right"><font size="2">$43,706</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">5</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">82</font></td>
+<td align="center"><font size="2">83</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=visitor08.htm"><b>The Visitor</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=overturefilms.htm">Over.</a></font></td>
+<td align="right"><font size="2">$8,483</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-20.5%</font></font></td>
+<td align="right"><font size="2">16</font></td>
+<td align="right"><font size="2">+2</font></td>
+<td align="right"><font size="2">$530</font></td>
+<td align="right"><font size="2">$9,427,089</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">26</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">83</font></td>
+<td align="center"><font size="2">-</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=hauntedcastleimax.htm"><b>Haunted Castle (IMAX)</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=nwave.htm">NWav</a></font></td>
+<td align="right"><font size="2">$7,826</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">2</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$3,913</font></td>
+<td align="right"><font size="2">$13,574,016</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">363</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">84</font></td>
+<td align="center"><font size="2">-</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=sixinparis08.htm"><b>Six in Paris (re-issue)</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=newyorker.htm">NYer</a></font></td>
+<td align="right"><font size="2">$7,765</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">1</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$7,765</font></td>
+<td align="right"><font size="2">$7,765</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">-</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">85</font></td>
+<td align="center"><font size="2">68</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=wackness.htm"><b>The Wackness</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=sonyclassics.htm">SPC</a></font></td>
+<td align="right"><font size="2">$7,551</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-68.1%</font></font></td>
+<td align="right"><font size="2">13</font></td>
+<td align="right"><font size="2">-7</font></td>
+<td align="right"><font size="2">$581</font></td>
+<td align="right"><font size="2">$2,073,912</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">14</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">86</font></td>
+<td align="center"><font size="2">67</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=whendidyoulastseeyourfather.htm"><b>When Did You Last See Your Father</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=sonyclassics.htm">SPC</a></font></td>
+<td align="right"><font size="2">$7,032</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-70.6%</font></font></td>
+<td align="right"><font size="2">9</font></td>
+<td align="right"><font size="2">-12</font></td>
+<td align="right"><font size="2">$781</font></td>
+<td align="right"><font size="2">$1,068,687</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">18</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">87</font></td>
+<td align="center"><font size="2">76</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=meetdave.htm"><b>Meet Dave</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=fox.htm">Fox</a></font></td>
+<td align="right"><font size="2">$6,822</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-50.4%</font></font></td>
+<td align="right"><font size="2">16</font></td>
+<td align="right"><font size="2">-11</font></td>
+<td align="right"><font size="2">$426</font></td>
+<td align="right"><font size="2">$11,803,254</font></td>
+<td align="right" nowrap><font size="2">$60</font></td>
+<td align="center"><font size="2">13</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">88</font></td>
+<td align="center"><font size="2">109</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=walkingondeadfish.htm"><b>Walking on Dead Fish</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=variancefilms.htm">Vari.</a></font></td>
+<td align="right"><font size="2">$6,591</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+124.8%</font></font></td>
+<td align="right"><font size="2">3</font></td>
+<td align="right"><font size="2">+2</font></td>
+<td align="right"><font size="2">$2,197</font></td>
+<td align="right"><font size="2">$22,259</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">3</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">89</font></td>
+<td align="center"><font size="2">79</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=encountersattheendoftheworld.htm"><b>Encounters at the End of the World</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=thinkfilm.htm">Think</a></font></td>
+<td align="right"><font size="2">$5,713</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-54.5%</font></font></td>
+<td align="right"><font size="2">6</font></td>
+<td align="right"><font size="2">-15</font></td>
+<td align="right"><font size="2">$952</font></td>
+<td align="right"><font size="2">$924,309</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">17</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">90</font></td>
+<td align="center"><font size="2">99</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=movingmidway.htm"><b>Moving Midway</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=firstrun.htm">FRun</a></font></td>
+<td align="right"><font size="2">$5,687</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+19.1%</font></font></td>
+<td align="right"><font size="2">4</font></td>
+<td align="right"><font size="2">+1</font></td>
+<td align="right"><font size="2">$1,422</font></td>
+<td align="right"><font size="2">$33,678</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">4</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">91</font></td>
+<td align="center"><font size="2">88</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=pool08.htm"><b>The Pool</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=vitagraph.htm">Vita.</a></font></td>
+<td align="right"><font size="2">$5,246</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-39.2%</font></font></td>
+<td align="right"><font size="2">2</font></td>
+<td align="right"><font size="2">-4</font></td>
+<td align="right"><font size="2">$2,623</font></td>
+<td align="right"><font size="2">$54,760</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">5</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">92</font></td>
+<td align="center"><font size="2">111</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=iousa.htm"><b>I.O.U.S.A.</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=roadsideattractions.htm">RAtt.</a></font></td>
+<td align="right"><font size="2">$4,866</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+76.4%</font></font></td>
+<td align="right"><font size="2">3</font></td>
+<td align="right"><font size="2">-1</font></td>
+<td align="right"><font size="2">$1,622</font></td>
+<td align="right"><font size="2">$739,753</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">7</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">93</font></td>
+<td align="center"><font size="2">110</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=darenotwalkalone.htm"><b>Dare Not Walk Alone</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=indican.htm">Indic.</a></font></td>
+<td align="right"><font size="2">$4,838</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+67.7%</font></font></td>
+<td align="right"><font size="2">2</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$2,419</font></td>
+<td align="right"><font size="2">$44,481</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">18</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">94</font></td>
+<td align="center"><font size="2">85</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=flyboys08.htm"><b>The Flyboys</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=darkcoastpictures.htm">DCoa.</a></font></td>
+<td align="right"><font size="2">$4,739</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-49.4%</font></font></td>
+<td align="right"><font size="2">6</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$790</font></td>
+<td align="right"><font size="2">$124,626</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">8</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">95</font></td>
+<td align="center"><font size="2">57</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=allroadsleadhome.htm"><b>All Roads Lead Home</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=waldowestproductions.htm">Wald.</a></font></td>
+<td align="right"><font size="2">$4,675</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-88.1%</font></font></td>
+<td align="right"><font size="2">13</font></td>
+<td align="right"><font size="2">-33</font></td>
+<td align="right"><font size="2">$360</font></td>
+<td align="right"><font size="2">$43,907</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">2</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">96</font></td>
+<td align="center"><font size="2">134</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=everybodywantstobeitalian.htm"><b>Everybody Wants to Be Italian</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=roadsideattractions.htm">RAtt.</a></font></td>
+<td align="right"><font size="2">$4,636</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+925.7%</font></font></td>
+<td align="right"><font size="2">2</font></td>
+<td align="right"><font size="2">+1</font></td>
+<td align="right"><font size="2">$2,318</font></td>
+<td align="right"><font size="2">$349,949</font></td>
+<td align="right" nowrap><font size="2">$3</font></td>
+<td align="center"><font size="2">5</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">97</font></td>
+<td align="center"><font size="2">118</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=louisebourgeois.htm"><b>Louise Bourgeois: The Spider, The Mistress and the Tangerine</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=zeitgeist.htm">Zeit.</a></font></td>
+<td align="right"><font size="2">$4,484</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+169.5%</font></font></td>
+<td align="right"><font size="2">2</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$2,242</font></td>
+<td align="right"><font size="2">$72,141</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">13</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">98</font></td>
+<td align="center"><font size="2">112</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=mannamedpearl.htm"><b>A Man Named Pearl</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=tentmakersentertainment.htm">Tent.</a></font></td>
+<td align="right"><font size="2">$4,470</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+82.7%</font></font></td>
+<td align="right"><font size="2">8</font></td>
+<td align="right"><font size="2">+3</font></td>
+<td align="right"><font size="2">$559</font></td>
+<td align="right"><font size="2">$183,297</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">58</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">99</font></td>
+<td align="center"><font size="2">115</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=mommasman.htm"><b>Momma's Man</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=kino.htm">Kino</a></font></td>
+<td align="right"><font size="2">$4,379</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+113.8%</font></font></td>
+<td align="right"><font size="2">2</font></td>
+<td align="right"><font size="2">+1</font></td>
+<td align="right"><font size="2">$2,190</font></td>
+<td align="right"><font size="2">$78,972</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">7</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">100</font></td>
+<td align="center"><font size="2">96</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=insearchofamidnightkiss.htm"><b>In Search of a Midnight Kiss</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=ifc.htm">IFC</a></font></td>
+<td align="right"><font size="2">$4,334</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-24.1%</font></font></td>
+<td align="right"><font size="2">10</font></td>
+<td align="right"><font size="2">+2</font></td>
+<td align="right"><font size="2">$433</font></td>
+<td align="right"><font size="2">$155,147</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">10</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">101</font></td>
+<td align="center"><font size="2">80</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=augustevening.htm"><b>August Evening</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=mayaentertainment.htm">Maya</a></font></td>
+<td align="right"><font size="2">$4,267</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-65.3%</font></font></td>
+<td align="right"><font size="2">3</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$1,422</font></td>
+<td align="right"><font size="2">$34,871</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">5</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">102</font></td>
+<td align="center"><font size="2">87</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=anothergaysequel.htm"><b>Another Gay Sequel: Gays Gone Wild</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=tla.htm">TLA</a></font></td>
+<td align="right"><font size="2">$3,848</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-56.6%</font></font></td>
+<td align="right"><font size="2">2</font></td>
+<td align="right"><font size="2">-2</font></td>
+<td align="right"><font size="2">$1,924</font></td>
+<td align="right"><font size="2">$93,649</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">6</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">103</font></td>
+<td align="center"><font size="2">91</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=uptheyangtze.htm"><b>Up the Yangtze</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=zeitgeist.htm">Zeit.</a></font></td>
+<td align="right"><font size="2">$3,757</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-49.6%</font></font></td>
+<td align="right"><font size="2">2</font></td>
+<td align="right"><font size="2">-3</font></td>
+<td align="right"><font size="2">$1,879</font></td>
+<td align="right"><font size="2">$781,052</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">24</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">104</font></td>
+<td align="center"><font size="2">81</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=xfiles2.htm"><b>The X-Files: I Want to Believe</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=fox.htm">Fox</a></font></td>
+<td align="right"><font size="2">$3,700</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-69.8%</font></font></td>
+<td align="right"><font size="2">11</font></td>
+<td align="right"><font size="2">-22</font></td>
+<td align="right"><font size="2">$336</font></td>
+<td align="right"><font size="2">$20,982,478</font></td>
+<td align="right" nowrap><font size="2">$30</font></td>
+<td align="center"><font size="2">11</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">105</font></td>
+<td align="center"><font size="2">102</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=gonzo.htm"><b>Gonzo</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=magnolia.htm">Magn.</a></font></td>
+<td align="right"><font size="2">$3,066</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-30.3%</font></font></td>
+<td align="right"><font size="2">4</font></td>
+<td align="right"><font size="2">-2</font></td>
+<td align="right"><font size="2">$767</font></td>
+<td align="right"><font size="2">$1,219,898</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">14</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">106</font></td>
+<td align="center"><font size="2">95</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=sixtysix.htm"><b>Sixty Six</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=firstindependentpictures.htm">FInd.</a></font></td>
+<td align="right"><font size="2">$2,963</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-56.6%</font></font></td>
+<td align="right"><font size="2">4</font></td>
+<td align="right"><font size="2">-2</font></td>
+<td align="right"><font size="2">$741</font></td>
+<td align="right"><font size="2">$215,761</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">10</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">107</font></td>
+<td align="center"><font size="2">77</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=bricklane.htm"><b>Brick Lane</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=sonyclassics.htm">SPC</a></font></td>
+<td align="right"><font size="2">$2,955</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-78.2%</font></font></td>
+<td align="right"><font size="2">4</font></td>
+<td align="right"><font size="2">-8</font></td>
+<td align="right"><font size="2">$739</font></td>
+<td align="right"><font size="2">$1,074,505</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">16</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">108</font></td>
+<td align="center"><font size="2">100</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=edgeofheaven.htm"><b>The Edge of Heaven</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=strand.htm">Strand</a></font></td>
+<td align="right"><font size="2">$2,843</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-39.0%</font></font></td>
+<td align="right"><font size="2">3</font></td>
+<td align="right"><font size="2">-2</font></td>
+<td align="right"><font size="2">$948</font></td>
+<td align="right"><font size="2">$738,623</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">20</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">109</font></td>
+<td align="center"><font size="2">82</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=greetingsfromtheshore.htm"><b>Greetings from the Shore</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=fs.htm">Free</a></font></td>
+<td align="right"><font size="2">$2,776</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-76.3%</font></font></td>
+<td align="right"><font size="2">3</font></td>
+<td align="right"><font size="2">-4</font></td>
+<td align="right"><font size="2">$925</font></td>
+<td align="right"><font size="2">$94,715</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">4</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">110</font></td>
+<td align="center"><font size="2">89</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=lastmistress.htm"><b>The Last Mistress</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=ifc.htm">IFC</a></font></td>
+<td align="right"><font size="2">$2,138</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-73.3%</font></font></td>
+<td align="right"><font size="2">4</font></td>
+<td align="right"><font size="2">-5</font></td>
+<td align="right"><font size="2">$535</font></td>
+<td align="right"><font size="2">$785,671</font></td>
+<td align="right" nowrap><font size="2">$6</font></td>
+<td align="center"><font size="2">15</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">111</font></td>
+<td align="center"><font size="2">97</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=henrypooleishere.htm"><b>Henry Poole Is Here</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=overturefilms.htm">Over.</a></font></td>
+<td align="right"><font size="2">$1,886</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-64.7%</font></font></td>
+<td align="right"><font size="2">14</font></td>
+<td align="right"><font size="2">-19</font></td>
+<td align="right"><font size="2">$135</font></td>
+<td align="right"><font size="2">$1,824,506</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">8</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">112</font></td>
+<td align="center"><font size="2">93</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=misterfoe.htm"><b>Mister Foe</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=magnolia.htm">Magn.</a></font></td>
+<td align="right"><font size="2">$1,777</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-75.0%</font></font></td>
+<td align="right"><font size="2">2</font></td>
+<td align="right"><font size="2">-3</font></td>
+<td align="right"><font size="2">$889</font></td>
+<td align="right"><font size="2">$52,378</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">5</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">113</font></td>
+<td align="center"><font size="2">128</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=chrisanddon.htm"><b>Chris &amp; Don. A Love Story</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=zeitgeist.htm">Zeit.</a></font></td>
+<td align="right"><font size="2">$1,735</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+112.9%</font></font></td>
+<td align="right"><font size="2">2</font></td>
+<td align="right"><font size="2">+1</font></td>
+<td align="right"><font size="2">$868</font></td>
+<td align="right"><font size="2">$213,534</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">17</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">114</font></td>
+<td align="center"><font size="2">120</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=fall08.htm"><b>The Fall</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=roadsideattractions.htm">RAtt.</a></font></td>
+<td align="right"><font size="2">$1,606</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+1.3%</font></font></td>
+<td align="right"><font size="2">4</font></td>
+<td align="right"><font size="2">-2</font></td>
+<td align="right"><font size="2">$402</font></td>
+<td align="right"><font size="2">$2,259,870</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">22</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">115</font></td>
+<td align="center"><font size="2">84</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=college.htm"><b>College</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=mgm.htm">MGM</a></font></td>
+<td align="right"><font size="2">$1,468</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-86.2%</font></font></td>
+<td align="right"><font size="2">48</font></td>
+<td align="right"><font size="2">+18</font></td>
+<td align="right"><font size="2">$31</font></td>
+<td align="right"><font size="2">$4,678,182</font></td>
+<td align="right" nowrap><font size="2">$7</font></td>
+<td align="center"><font size="2">6</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">116</font></td>
+<td align="center"><font size="2">94</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=tuyasmarriage.htm"><b>Tuya's Marriage</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=musicboxfilms.htm">MBox</a></font></td>
+<td align="right"><font size="2">$1,275</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-81.5%</font></font></td>
+<td align="right"><font size="2">2</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$638</font></td>
+<td align="right"><font size="2">$79,291</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">27</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">117</font></td>
+<td align="center"><font size="2">129</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=oss117.htm"><b>OSS 117: Cairo, Nest of Spies</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=musicboxfilms.htm">MBox</a></font></td>
+<td align="right"><font size="2">$1,154</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+46.4%</font></font></td>
+<td align="right"><font size="2">1</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$1,154</font></td>
+<td align="right"><font size="2">$302,332</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">22</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">118</font></td>
+<td align="center"><font size="2">124</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=loveandhonor.htm"><b>Love and Honor</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=elevenarts.htm">Elev.</a></font></td>
+<td align="right"><font size="2">$1,105</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+3.7%</font></font></td>
+<td align="right"><font size="2">1</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$1,105</font></td>
+<td align="right"><font size="2">$58,638</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">23</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">119</font></td>
+<td align="center"><font size="2">103</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=amazingtruthaboutqueenraquela.htm"><b>The Amazing Truth About Queen Raquela</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=regent.htm">Reg.</a></font></td>
+<td align="right"><font size="2">$854</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-80.4%</font></font></td>
+<td align="right"><font size="2">1</font></td>
+<td align="right"><font size="2">-1</font></td>
+<td align="right"><font size="2">$854</font></td>
+<td align="right"><font size="2">$5,214</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">2</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">120</font></td>
+<td align="center"><font size="2">133</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=babaziz.htm"><b>Bab'Aziz - The Prince Who Contemplated His Soul</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=typecastreleasing.htm">Type.</a></font></td>
+<td align="right"><font size="2">$816</font></td>
+<td align="right"><font size="2"><font color="#0000ff">+60.9%</font></font></td>
+<td align="right"><font size="2">1</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$816</font></td>
+<td align="right"><font size="2">$85,911</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">35</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">121</font></td>
+<td align="center"><font size="2">105</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=baghead.htm"><b>Baghead</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=sonyclassics.htm">SPC</a></font></td>
+<td align="right"><font size="2">$729</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-79.9%</font></font></td>
+<td align="right"><font size="2">5</font></td>
+<td align="right"><font size="2">-9</font></td>
+<td align="right"><font size="2">$146</font></td>
+<td align="right"><font size="2">$135,984</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">17</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">122</font></td>
+<td align="center"><font size="2">125</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=kabluey.htm"><b>Kabluey</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=regent.htm">Reg.</a></font></td>
+<td align="right"><font size="2">$704</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-24.7%</font></font></td>
+<td align="right"><font size="2">1</font></td>
+<td align="right"><font size="2">-2</font></td>
+<td align="right"><font size="2">$704</font></td>
+<td align="right"><font size="2">$82,049</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">14</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">123</font></td>
+<td align="center"><font size="2">108</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=whaledreamers.htm"><b>whaledreamers</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=montereymediainc.htm">Mont.</a></font></td>
+<td align="right"><font size="2">$696</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-77.6%</font></font></td>
+<td align="right"><font size="2">4</font></td>
+<td align="right"><font size="2">-2</font></td>
+<td align="right"><font size="2">$174</font></td>
+<td align="right"><font size="2">$3,805</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">2</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">124</font></td>
+<td align="center"><font size="2">123</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=lawyerwalksintoabar.htm"><b>A Lawyer Walks Into a Bar...</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=indican.htm">Indic.</a></font></td>
+<td align="right"><font size="2">$669</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-39.3%</font></font></td>
+<td align="right"><font size="2">1</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$669</font></td>
+<td align="right"><font size="2">$4,426</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">18</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">125</font></td>
+<td align="center"><font size="2">126</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=monsieurverdoux08.htm"><b>Monsieur Verdoux (re-issue)</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=thefilmdesk.htm">FDesk</a></font></td>
+<td align="right"><font size="2">$594</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-32.3%</font></font></td>
+<td align="right"><font size="2">1</font></td>
+<td align="right"><font size="2">-1</font></td>
+<td align="right"><font size="2">$594</font></td>
+<td align="right"><font size="2">$31,598</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">30</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">126</font></td>
+<td align="center"><font size="2">121</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=pingpongplaya.htm"><b>Ping Pong Playa</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=ifc.htm">IFC</a></font></td>
+<td align="right"><font size="2">$592</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-61.6%</font></font></td>
+<td align="right"><font size="2">1</font></td>
+<td align="right"><font size="2">-1</font></td>
+<td align="right"><font size="2">$592</font></td>
+<td align="right"><font size="2">$77,907</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">5</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">127</font></td>
+<td align="center"><font size="2">113</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=cthulhu.htm"><b>Cthulhu</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=regent.htm">Reg.</a></font></td>
+<td align="right"><font size="2">$456</font></td>
+<td align="right"><font size="2"><font color="#ff0000">-80.1%</font></font></td>
+<td align="right"><font size="2">1</font></td>
+<td align="right"><font size="2">-1</font></td>
+<td align="right"><font size="2">$456</font></td>
+<td align="right"><font size="2">$13,849</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">7</font></td>
+</tr>
+
+<tr bgcolor="#f4f4ff"><td align="center"><font size="2">128</font></td>
+<td align="center"><font size="2">-</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=myfathermylord.htm"><b>My Father My Lord</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=kino.htm">Kino</a></font></td>
+<td align="right"><font size="2">$349</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">1</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$349</font></td>
+<td align="right"><font size="2">$155,588</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">19</font></td>
+</tr>
+
+<tr bgcolor="#ffffff"><td align="center"><font size="2">-</font></td>
+<td align="center"><font size="2">-</font></td>
+<td><font size="2"><a href="/movies/?page=weekly&id=boxelder.htm"><b>Box Elder</b></a></font></td>
+<td><font size="2"><a href="/studio/chart/?view2=calendar&yr=2008&studio=unknown.htm">N/A</a></font></td>
+<td align="right"><font size="2">$65</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">1</font></td>
+<td align="right"><font size="2">-</font></td>
+<td align="right"><font size="2">$65</font></td>
+<td align="right"><font size="2">$38,188</font></td>
+<td align="right" nowrap><font size="2">-</font></td>
+<td align="center"><font size="2">31</font></td>
+</tr>
+
+<tr bgcolor="#dcdcdc"><td colspan="4" align="right"><font size="2"><b>TOTAL (129 MOVIES):</b></font></td><td align="right"><font size="2">$145,920,333</font></td><td align="right"><font size="2"><font color="#0000ff">+11.1%</font></font></td><td align="right"><font size="2">43,181</font></td><td align="right"><font size="2"><font color="#0000ff">+1,174</font></font></td><td align="right"><font size="2">$3,379</font></td><td colspan="3"><font size="2">&nbsp;</font></td></tr></table></td></tr><tr><td width="25%"><font face="Verdana" size="1"><a href="/weekly/chart/?view=&yr=2008&wk=39&p=.htm"><b>&lt;&lt;Last Week</a> <a href="/weekly/chart/?view=&yr=2007&wk=40&p=.htm">&lt;Last Year</a></b></font></td><td align="center" width="50%"><font face="Verdana" size="1"><b>View Index: <a href="/weekly/?yr=2008&p=.htm">By Year</a> | <a href="/weekly/?view=wk&wk=40&p=.htm">By Week</a></b></font></td><td align="right" width="25%"><font face="Verdana" size="1"><b><a href="/weekly/chart/?view=&yr=2009&wk=40&p=.htm">Next Year&gt;</a> <a href="/weekly/chart/?view=&yr=2008&wk=41&p=.htm">Next Week&gt;&gt;</a></b></font></td></tr></table><p align="center">* Production Budget in millions. Studios get on average 55 percent of the final gross.</p></center><br>
+<P ALIGN="CENTER"><A HREF="/weekly/"><B><FONT FACE="Verdana" SIZE=2>back to<br>WEEKLY MAIN PAGE</FONT></B></A></p>
+
+
+
+</td></tr></table>
+	</div>
+	</div>
+	<div id="hp_footer">
+		<div style="padding-bottom: 20px;">
+
+			<div style="margin: 0px 121px; vertical-align: top;">
+				<div id="footer_links">
+					<ul class="footer_link_list">
+						<li><strong>Latest Updates</strong></li>
+						<li><a href="/news/?ref=ft">Movie News</a>
+						<li><a href="/daily/chart/?ref=ft">Daily Chart</a></li>
+						<li><a href="/weekend/chart/?ref=ft">Weekend Chart</a></li>
+						<li><a href="/alltime/?ref=ft">All Time Charts</a></li>
+						<li><a href="/intl/?ref=ft">International Charts</a></li>
+					</ul>
+					<!--
+					<ul class="footer_link_list">
+						<li><strong>Popular Movies</strong></li>
+											</ul>
+					-->
+					<ul class="footer_link_list">
+						<li><strong>Indices</strong></li>
+						<li><a href="/people/?ref=ft">People</a></li>
+						<li><a href="/genres/?ref=ft">Genres</a></li>
+						<li><a href="/franchises/?ref=ft">Franchises</a></li>
+						<li><a href="/showdowns/?ref=ft">Showdowns</a></li>
+					</ul>
+					<ul class="footer_link_list">
+						<li><strong>Other</strong></li>
+						<li><a href="/about/?ref=ft">About This Site</a></li>
+						<li><a href="/about/advertise.htm?ref=ft">Advertising</a></li>
+					</ul>
+				</div>
+				<div id="copyright">
+					<a href="/?ref=ft"><img src="/img/misc/bom_logo1.png" width="245" height="56" alt="Box Office Mojo"></a><br>
+					<p>An <a href="http://imdb.com/"><img src="/img/misc/IMDbSm.png" width="34" height="16" alt="IMDb" valign="middle"></a> company<br><br></p>
+					<p>&copy; <a href="http://imdb.com/">IMDb.com</a>, Inc. or its affiliates. All rights reserved. Box Office Mojo and IMDb are trademarks or registered trademarks of IMDb.com, Inc. or its affiliates. <a href="/about/termsofuse.htm">Terms of Use</a> and <a href="/about/privacy.htm">Privacy Policy</a> under which this service is provided to you.</p>
+					</div>			
+				</div>
+				<div style="clear:both;">
+				<div>
+				 <script type="text/javascript">
+    googletag.cmd.push(function() {
+        googletag.defineSlot("/4215/imdb2.bom.other", [[728, 90]], "ad-slot-3").addService(googletag.pubads().setTargeting("p", "b"));
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+    });
+    googletag.cmd.push(function() { googletag.display("ad-slot-3"); });
+</script></div>
+
+				</div>
+	</div>
+</div>
+
+
+
+
+
+<!-- Page generated in 0.03 seconds | . -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6034961" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+  el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+    <img src="http://b.scorecardresearch.com/p?c1=2&c2=6034961&cv=2.0&cj=1" />
+</noscript>
+</BODY>
+</HTML>

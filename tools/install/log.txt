@@ -1,0 +1,444 @@
+SUCCESS: cp /home/marc/pri42/tools/install/scripts/pci.cnf /etc/mysql/mysql.conf.d/pci.cnf
+SUCCESS: /etc/init.d/mysql stop
+SUCCESS: cp /home/marc/pri42/tools/install/scripts/pci.cnf /etc/mysql/mariadb.conf.d/pci.cnf
+SUCCESS: /etc/init.d/mysql start
+SUCCESS: mysql -e source /home/marc/pri42/tools/install/tables/debian-user.sql;
+SUCCESS: mysql -e SELECT @@max_heap_table_size;
+SUCCESS: mysql -e SELECT @@tmp_table_size;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/tvmaze-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/episodes-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/tmdb-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/mojo-dump.sql;
+SUCCESS: python3 dbConfigFiles.py --import all
+SUCCESS: mysql pci -e SELECT count(*) FROM config2;
+SUCCESS: python3 imdbUpdate.py
+SUCCESS: python3 imdbImport.py --import
+SUCCESS: mysql pci -e SELECT count(*) FROM title_akas_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM title_basics_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM title_ratings_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM akas;
+SUCCESS: mysql pci -e SELECT count(*) FROM basics;
+SUCCESS: mysql pci -e SELECT count(*) FROM ratings;
+SUCCESS: mysql pci -e SELECT count(*) FROM akas_small;
+SUCCESS: mysql pci -e SELECT count(*) FROM basics_small;
+SUCCESS: mysql pci -e SELECT count(*) FROM ratings_small;
+SUCCESS: python3 mojoUpdate.py
+SUCCESS: /etc/init.d/mysql stop
+SUCCESS: cp /home/marc/pri42/tools/install/scripts/pci.cnf /etc/mysql/mariadb.conf.d/pci.cnf
+SUCCESS: /etc/init.d/mysql start
+SUCCESS: mysql -e source /home/marc/pri42/tools/install/tables/debian-user.sql;
+SUCCESS: mysql -e SELECT @@max_heap_table_size;
+SUCCESS: mysql -e SELECT @@tmp_table_size;
+SUCCESS: python3 tvmazeImport.py --single 66
+SUCCESS: python3 tvmazeImport.py --single 7744
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/tvmaze-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/episodes-dump.sql;
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/tmdb-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/mojo-dump.sql;
+SUCCESS: python3 dbConfigFiles.py --import all
+SUCCESS: mysql pci -e SELECT count(*) FROM config2;
+SUCCESS: python3 imdbUpdate.py
+SUCCESS: cp /home/marc/pri42/tools/install/scripts/pci.cnf /etc/mysql/mysql.conf.d/pci.cnf
+SUCCESS: /etc/init.d/mysql stop
+SUCCESS: cp /home/marc/pri42/tools/install/scripts/pci.cnf /etc/mysql/mariadb.conf.d/pci.cnf
+SUCCESS: /etc/init.d/mysql start
+SUCCESS: mysql -e source /home/marc/pri42/tools/install/tables/debian-user.sql;
+SUCCESS: mysql -e SELECT @@max_heap_table_size;
+SUCCESS: mysql -e SELECT @@tmp_table_size;
+SUCCESS: python3 tvmazeImport.py --single 66
+SUCCESS: python3 tvmazeImport.py --single 7744
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/tvmaze-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/episodes-dump.sql;
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/tmdb-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/mojo-dump.sql;
+SUCCESS: python3 dbConfigFiles.py --import all
+SUCCESS: mysql pci -e SELECT count(*) FROM config2;
+SUCCESS: python3 imdbUpdate.py
+SUCCESS: python3 imdbImport.py --import
+SUCCESS: mysql pci -e SELECT count(*) FROM title_akas_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM title_basics_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM title_ratings_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM akas;
+SUCCESS: mysql pci -e SELECT count(*) FROM basics;
+SUCCESS: mysql pci -e SELECT count(*) FROM ratings;
+SUCCESS: mysql pci -e SELECT count(*) FROM akas_small;
+SUCCESS: mysql pci -e SELECT count(*) FROM basics_small;
+SUCCESS: mysql pci -e SELECT count(*) FROM ratings_small;
+SUCCESS: python3 mojoUpdate.py
+ERROR: python3 mojoImport.py
+SUCCESS: python3 tvmazeImport.py --single 66
+SUCCESS: python3 tvmazeImport.py --single 7744
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/tvmaze-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/episodes-dump.sql;
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/tmdb-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/mojo-dump.sql;
+SUCCESS: python3 dbConfigFiles.py --import all
+SUCCESS: mysql pci -e SELECT count(*) FROM config2;
+SUCCESS: python3 imdbUpdate.py
+SUCCESS: python3 imdbImport.py --import
+SUCCESS: mysql pci -e SELECT count(*) FROM title_akas_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM title_basics_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM title_ratings_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM akas;
+SUCCESS: mysql pci -e SELECT count(*) FROM basics;
+SUCCESS: mysql pci -e SELECT count(*) FROM ratings;
+SUCCESS: mysql pci -e SELECT count(*) FROM akas_small;
+SUCCESS: mysql pci -e SELECT count(*) FROM basics_small;
+SUCCESS: mysql pci -e SELECT count(*) FROM ratings_small;
+SUCCESS: python3 mojoUpdate.py
+SUCCESS: python3 mojoImport.py
+ERROR: cp /home/marc/pri42/tools/install/scripts/pci.cnf /etc/mysql/mysql.conf.d/pci.cnf
+SUCCESS: /etc/init.d/mysql stop
+ERROR: cp /home/marc/pri42/tools/install/scripts/pci.cnf /etc/mysql/mariadb.conf.d/pci.cnf
+ERROR: /etc/init.d/mysql start
+ERROR: mysql -e source /home/marc/pri42/tools/install/tables/debian-user.sql;
+ERROR: mysql -e SELECT @@max_heap_table_size;
+ERROR: mysql -e SELECT @@tmp_table_size;
+ERROR: python3 tvmazeImport.py --single 66
+ERROR: python3 tvmazeImport.py --single 7744
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri42/tools/install/dumps/tvmaze-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri42/tools/install/dumps/episodes-dump.sql;
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri42/tools/install/dumps/tmdb-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri42/tools/install/dumps/mojo-dump.sql;
+ERROR: python3 dbConfigFiles.py --import all
+ERROR: mysql pci -e SELECT count(*) FROM config2;
+ERROR: python3 imdbUpdate.py
+ERROR: python3 imdbImport.py --import
+ERROR: mysql pci -e SELECT count(*) FROM title_akas_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM title_basics_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM title_ratings_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM akas;
+ERROR: mysql pci -e SELECT count(*) FROM basics;
+ERROR: mysql pci -e SELECT count(*) FROM ratings;
+ERROR: mysql pci -e SELECT count(*) FROM akas_small;
+ERROR: mysql pci -e SELECT count(*) FROM basics_small;
+ERROR: mysql pci -e SELECT count(*) FROM ratings_small;
+SUCCESS: cp /home/marc/pri42/tools/install/scripts/pci.cnf /etc/mysql/mysql.conf.d/pci.cnf
+SUCCESS: /etc/init.d/mysql stop
+SUCCESS: cp /home/marc/pri42/tools/install/scripts/pci.cnf /etc/mysql/mariadb.conf.d/pci.cnf
+SUCCESS: /etc/init.d/mysql start
+SUCCESS: mysql -e source /home/marc/pri42/tools/install/tables/debian-user.sql;
+SUCCESS: mysql -e SELECT @@max_heap_table_size;
+SUCCESS: mysql -e SELECT @@tmp_table_size;
+ERROR: python3 tvmazeImport.py --single 66
+ERROR: python3 tvmazeImport.py --single 7744
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/tvmaze-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/episodes-dump.sql;
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/tmdb-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/mojo-dump.sql;
+ERROR: python3 dbConfigFiles.py --import all
+SUCCESS: mysql pci -e SELECT count(*) FROM config2;
+ERROR: python3 imdbUpdate.py
+ERROR: python3 imdbImport.py --import
+SUCCESS: mysql pci -e SELECT count(*) FROM title_akas_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM title_basics_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM title_ratings_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM akas;
+SUCCESS: mysql pci -e SELECT count(*) FROM basics;
+SUCCESS: mysql pci -e SELECT count(*) FROM ratings;
+SUCCESS: mysql pci -e SELECT count(*) FROM akas_small;
+SUCCESS: mysql pci -e SELECT count(*) FROM basics_small;
+SUCCESS: mysql pci -e SELECT count(*) FROM ratings_small;
+SUCCESS: python3 mojoUpdate.py
+ERROR: python3 mojoImport.py
+SUCCESS: python3 tvmazeImport.py --single 66
+SUCCESS: python3 tvmazeImport.py --single 7744
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri42/tools/install/dumps/tvmaze-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri42/tools/install/dumps/episodes-dump.sql;
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri42/tools/install/dumps/tmdb-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri42/tools/install/dumps/mojo-dump.sql;
+SUCCESS: python3 dbConfigFiles.py --import all
+ERROR: mysql pci -e SELECT count(*) FROM config2;
+ERROR: python3 imdbUpdate.py
+SUCCESS: python3 tvmazeImport.py --single 66
+SUCCESS: python3 tvmazeImport.py --single 7744
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/tvmaze-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/episodes-dump.sql;
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/tmdb-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri42/tools/install/dumps/mojo-dump.sql;
+SUCCESS: python3 dbConfigFiles.py --import all
+SUCCESS: mysql pci -e SELECT count(*) FROM config2;
+ERROR: python3 imdbUpdate.py
+ERROR: python3 imdbImport.py --import
+SUCCESS: mysql pci -e SELECT count(*) FROM title_akas_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM title_basics_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM title_ratings_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM akas;
+SUCCESS: mysql pci -e SELECT count(*) FROM basics;
+SUCCESS: mysql pci -e SELECT count(*) FROM ratings;
+SUCCESS: mysql pci -e SELECT count(*) FROM akas_small;
+SUCCESS: mysql pci -e SELECT count(*) FROM basics_small;
+SUCCESS: mysql pci -e SELECT count(*) FROM ratings_small;
+SUCCESS: python3 mojoUpdate.py
+ERROR: python3 mojoImport.py
+ERROR: /etc/init.d/mysql stop
+ERROR: cp /home/marc/pri2022/tools/install/scripts/pci.cnf /etc/mysql/mariadb.conf.d/pci.cnf
+ERROR: /etc/init.d/mysql start
+ERROR: mysql -e source /home/marc/pri2022/tools/install/tables/debian-user.sql;
+ERROR: mysql -e SELECT @@max_heap_table_size;
+ERROR: mysql -e SELECT @@tmp_table_size;
+ERROR: python3 tvmazeImport.py --single 66
+ERROR: python3 tvmazeImport.py --single 7744
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tvmaze-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/episodes-dump.sql;
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tmdb-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/mojo-dump.sql;
+ERROR: python3 dbConfigFiles.py --import all
+ERROR: mysql pci -e SELECT count(*) FROM config2;
+ERROR: python3 imdbGet.py
+ERROR: python3 imdbImport.py --import
+ERROR: mysql pci -e SELECT count(*) FROM title_akas_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM title_basics_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM title_ratings_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM akas;
+ERROR: mysql pci -e SELECT count(*) FROM basics;
+ERROR: mysql pci -e SELECT count(*) FROM ratings;
+ERROR: mysql pci -e SELECT count(*) FROM akas_small;
+ERROR: mysql pci -e SELECT count(*) FROM basics_small;
+ERROR: mysql pci -e SELECT count(*) FROM ratings_small;
+ERROR: python3 mojoUpdate.py
+ERROR: python3 mojoImport.py
+ERROR: /etc/init.d/mysql stop
+SUCCESS: cp /home/marc/pri2022/tools/install/scripts/pci.cnf /etc/mysql/mariadb.conf.d/pci.cnf
+ERROR: /etc/init.d/mysql start
+SUCCESS: mysql -e source /home/marc/pri2022/tools/install/tables/debian-user.sql;
+SUCCESS: mysql -e SELECT @@max_heap_table_size;
+SUCCESS: mysql -e SELECT @@tmp_table_size;
+ERROR: python3 tvmazeImport.py --single 66
+ERROR: python3 tvmazeImport.py --single 7744
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tvmaze-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri2022/tools/install/dumps/episodes-dump.sql;
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tmdb-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri2022/tools/install/dumps/mojo-dump.sql;
+ERROR: python3 dbConfigFiles.py --import all
+SUCCESS: mysql pci -e SELECT count(*) FROM config2;
+ERROR: python3 imdbGet.py
+ERROR: python3 imdbImport.py --import
+SUCCESS: mysql pci -e SELECT count(*) FROM title_akas_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM title_basics_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM title_ratings_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM akas;
+SUCCESS: mysql pci -e SELECT count(*) FROM basics;
+SUCCESS: mysql pci -e SELECT count(*) FROM ratings;
+SUCCESS: mysql pci -e SELECT count(*) FROM akas_small;
+SUCCESS: mysql pci -e SELECT count(*) FROM basics_small;
+SUCCESS: mysql pci -e SELECT count(*) FROM ratings_small;
+ERROR: python3 mojoUpdate.py
+ERROR: python3 mojoImport.py
+ERROR: /etc/init.d/mysql stop
+SUCCESS: cp /home/marc/pri2022/tools/install/scripts/pci.cnf /etc/mysql/mariadb.conf.d/pci.cnf
+ERROR: /etc/init.d/mysql start
+SUCCESS: mysql -e source /home/marc/pri2022/tools/install/tables/debian-user.sql;
+SUCCESS: mysql -e SELECT @@max_heap_table_size;
+SUCCESS: mysql -e SELECT @@tmp_table_size;
+ERROR: python3 tvmazeImport.py --single 66
+ERROR: python3 tvmazeImport.py --single 7744
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tvmaze-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/episodes-dump.sql;
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tmdb-dump.sql;
+ERROR: /etc/init.d/mysql stop
+SUCCESS: cp /home/marc/pri2022/tools/install/scripts/pci.cnf /etc/mysql/mariadb.conf.d/pci.cnf
+ERROR: /etc/init.d/mysql start
+SUCCESS: mysql -e source /home/marc/pri2022/tools/install/tables/debian-user.sql;
+SUCCESS: mysql -e SELECT @@max_heap_table_size;
+SUCCESS: mysql -e SELECT @@tmp_table_size;
+ERROR: python3 tvmazeImport.py --single 66
+ERROR: python3 tvmazeImport.py --single 7744
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tvmaze-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri2022/tools/install/dumps/episodes-dump.sql;
+SUCCESS: mysql pci -e SELECT count(*) FROM tvmaze;
+SUCCESS: mysql pci -e SELECT count(*) FROM episodes;
+SUCCESS: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tmdb-dump.sql;
+SUCCESS: mysql pci -e source /home/marc/pri2022/tools/install/dumps/mojo-dump.sql;
+ERROR: python3 dbConfigFiles.py --import all
+SUCCESS: mysql pci -e SELECT count(*) FROM config2;
+ERROR: python3 imdbGet.py
+ERROR: python3 imdbImport.py --import
+SUCCESS: mysql pci -e SELECT count(*) FROM title_akas_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM title_basics_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM title_ratings_tsv;
+SUCCESS: mysql pci -e SELECT count(*) FROM akas;
+SUCCESS: mysql pci -e SELECT count(*) FROM basics;
+SUCCESS: mysql pci -e SELECT count(*) FROM ratings;
+SUCCESS: mysql pci -e SELECT count(*) FROM akas_small;
+SUCCESS: mysql pci -e SELECT count(*) FROM basics_small;
+SUCCESS: mysql pci -e SELECT count(*) FROM ratings_small;
+ERROR: python3 mojoUpdate.py
+ERROR: python3 mojoImport.py
+ERROR: python3 tvmazeImport.py --single 66
+ERROR: python3 tvmazeImport.py --single 7744
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tvmaze-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/episodes-dump.sql;
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tmdb-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/mojo-dump.sql;
+ERROR: python3 dbConfigFiles.py --import all
+ERROR: mysql pci -e SELECT count(*) FROM config2;
+ERROR: python3 imdbGet.py
+ERROR: python3 imdbImport.py --import
+ERROR: mysql pci -e SELECT count(*) FROM title_akas_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM title_basics_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM title_ratings_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM akas;
+ERROR: mysql pci -e SELECT count(*) FROM basics;
+ERROR: mysql pci -e SELECT count(*) FROM ratings;
+ERROR: mysql pci -e SELECT count(*) FROM akas_small;
+ERROR: mysql pci -e SELECT count(*) FROM basics_small;
+ERROR: mysql pci -e SELECT count(*) FROM ratings_small;
+ERROR: python3 mojoUpdate.py
+ERROR: python3 mojoImport.py
+ERROR: python3 tvmazeImport.py --single 66
+ERROR: python3 tvmazeImport.py --single 7744
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tvmaze-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/episodes-dump.sql;
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tmdb-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/mojo-dump.sql;
+ERROR: python3 dbConfigFiles.py --import all
+ERROR: mysql pci -e SELECT count(*) FROM config2;
+ERROR: python3 imdbGet.py
+ERROR: /etc/init.d/mysql stop
+ERROR: cp /home/marc/pri2022/tools/install/scripts/pci.cnf /etc/mysql/mariadb.conf.d/pci.cnf
+ERROR: /etc/init.d/mysql start
+ERROR: mysql -e source /home/marc/pri2022/tools/install/tables/debian-user.sql;
+ERROR: mysql -e SELECT @@max_heap_table_size;
+ERROR: mysql -e SELECT @@tmp_table_size;
+ERROR: python3 tvmazeImport.py --single 66
+ERROR: python3 tvmazeImport.py --single 7744
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tvmaze-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/episodes-dump.sql;
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tmdb-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/mojo-dump.sql;
+ERROR: python3 dbConfigFiles.py --import all
+ERROR: mysql pci -e SELECT count(*) FROM config2;
+ERROR: python3 imdbGet.py
+ERROR: python3 imdbImport.py --import
+ERROR: mysql pci -e SELECT count(*) FROM title_akas_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM title_basics_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM title_ratings_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM akas;
+ERROR: mysql pci -e SELECT count(*) FROM basics;
+ERROR: mysql pci -e SELECT count(*) FROM ratings;
+ERROR: mysql pci -e SELECT count(*) FROM akas_small;
+ERROR: mysql pci -e SELECT count(*) FROM basics_small;
+ERROR: mysql pci -e SELECT count(*) FROM ratings_small;
+ERROR: python3 mojoUpdate.py
+ERROR: python3 mojoImport.py
+ERROR: /etc/init.d/mysql stop
+ERROR: cp /home/marc/pri2022/tools/install/scripts/pci.cnf /etc/mysql/mariadb.conf.d/pci.cnf
+ERROR: /etc/init.d/mysql start
+ERROR: mysql -e source /home/marc/pri2022/tools/install/tables/debian-user.sql;
+ERROR: mysql -e SELECT @@max_heap_table_size;
+ERROR: mysql -e SELECT @@tmp_table_size;
+SUCCESS: python3 tvmazeImport.py --single 66
+SUCCESS: python3 tvmazeImport.py --single 7744
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tvmaze-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/episodes-dump.sql;
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/tmdb-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri2022/tools/install/dumps/mojo-dump.sql;
+SUCCESS: python3 dbConfigFiles.py --import all
+ERROR: mysql pci -e SELECT count(*) FROM config2;
+ERROR: python3 imdbGet.py
+SUCCESS: python3 imdbImport.py --import
+ERROR: mysql pci -e SELECT count(*) FROM title_akas_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM title_basics_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM title_ratings_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM akas;
+ERROR: mysql pci -e SELECT count(*) FROM basics;
+ERROR: mysql pci -e SELECT count(*) FROM ratings;
+ERROR: mysql pci -e SELECT count(*) FROM akas_small;
+ERROR: mysql pci -e SELECT count(*) FROM basics_small;
+ERROR: mysql pci -e SELECT count(*) FROM ratings_small;
+SUCCESS: python3 mojoUpdate.py
+ERROR: python3 mojoImport.py
+ERROR: /etc/init.d/mysql stop
+ERROR: cp /home/marc/pri2025/tools/install/scripts/pci.cnf /etc/mysql/mariadb.conf.d/pci.cnf
+ERROR: /etc/init.d/mysql start
+ERROR: mysql --user pci -p -e source /home/marc/pri2025/tools/install/tables/debian-user.sql;
+ERROR: mysql --user pci -p -e SELECT @@max_heap_table_size;
+ERROR: mysql --user pci -p -e SELECT @@tmp_table_size;
+ERROR: cp /home/marc/pri2025/tools/install/scripts/pci.cnf /etc/mysql/mariadb.conf.d/pci.cnf
+ERROR: /etc/init.d/mysql start
+ERROR: mysql --user pci -p -e source /home/marc/pri2025/tools/install/tables/debian-user.sql;
+ERROR: mysql --user pci -p -e SELECT @@max_heap_table_size;
+ERROR: mysql --user pci -p -e SELECT @@tmp_table_size;
+SUCCESS: python3 tvmazeImport.py --single 66
+SUCCESS: mysql --user pci -p -e source /home/marc/pri2025/tools/install/tables/debian-user.sql;
+SUCCESS: mysql --user pci -p -e SELECT @@max_heap_table_size;
+ERROR: mysql --user pci -p -e SELECT @@tmp_table_size;
+SUCCESS: python3 tvmazeImport.py --single 66
+ERROR: mysql --user pci -p -e source /home/marc/pri2025/tools/install/tables/debian-user.sql;
+SUCCESS: mysql --user pci -p -e SELECT @@max_heap_table_size;
+SUCCESS: mysql --user pci -p -e SELECT @@tmp_table_size;
+SUCCESS: mysql --user pci -p -e source /home/marc/pri2025/tools/install/tables/debian-user.sql;
+SUCCESS: mysql --user pci -p -e SELECT @@max_heap_table_size;
+SUCCESS: mysql --user pci -p -e SELECT @@tmp_table_size;
+SUCCESS: python3 tvmazeImport.py --single 66
+SUCCESS: python3 tvmazeImport.py --single 7744
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri2025/tools/install/dumps/tvmaze-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri2025/tools/install/dumps/episodes-dump.sql;
+ERROR: mysql pci -e SELECT count(*) FROM tvmaze;
+ERROR: mysql pci -e SELECT count(*) FROM episodes;
+ERROR: mysql pci -e source /home/marc/pri2025/tools/install/dumps/tmdb-dump.sql;
+ERROR: mysql pci -e source /home/marc/pri2025/tools/install/dumps/mojo-dump.sql;
+SUCCESS: python3 dbConfigFiles.py --import all
+SUCCESS: mysql pci --user pci -p -e SELECT count(*) FROM config2;
+ERROR: python3 imdbGet.py

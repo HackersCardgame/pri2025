@@ -1,0 +1,286 @@
+# WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
+# WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
+#
+# if you change things
+#
+# 0. read the text below
+# 1. do this in a testing repository !!!
+# 2. check if still all works with ./lib/runUnittests.sh
+# 3. if everything is green copy it to the productive repository
+# 4. if not everything is green debug your changes
+# 5. go to point 2 until it works
+#
+# features without $ or its topics without dolar sign for example 1080p searches for .1080p. so you can easily just use eg. DE that will be translated to .DE. and does not match eg jaDE
+#
+# ==================================================
+# WARNING ALL FEATURES AND TOPICS MUST BE UPPERCASE
+# ==================================================
+# WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
+# WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
+
+
+#TODO: maybe static general.cfg and user-general.cfg 
+
+
+# ORDER OF THE FEATURES (all these values must be uppercase)
+#===============================================================================
+order ALL = SECTION SPORT CODEC CONSOLEREGION VIDEOSOURCE SCREENS RESOLUTION LANGUAGE MOVIEGENRE TVGENRE TVTYPE TVCOUNTRY CLS DIMENSIONS OS DUPE APPSTYPE BOOKWARETYPE INTERNAL DUPECHECKEROVERRIDE IMDB
+order GAMES = SECTION LANGUAGE OS DUPE INTERNAL DUPECHECKEROVERRIDE
+order MOVIES = SECTION CODEC VIDEOSOURCE SCREENS RESOLUTION LANGUAGE MOVIEGENRE CLS DIMENSIONS DUPE INTERNAL DUPECHECKEROVERRIDE IMDB
+order TV = SECTION CODEC VIDEOSOURCE RESOLUTION LANGUAGE TVGENRE TVTYPE TVCOUNTRY DUPE INTERNAL DUPECHECKEROVERRIDE
+order SPORTS = SECTION SPORT VIDEOSOURCE RESOLUTION DUPE INTERNAL DUPECHECKEROVERRIDE
+order DOX = SECTION OS LANGUAGE DUPE INTERNAL DUPECHECKEROVERRIDE
+order APPS = SECTION OS LANGUAGE DUPE INTERNAL DUPECHECKEROVERRIDE APPSTYPE
+order WIIU = SECTION CONSOLEREGION LANGUAGE DUPE INTERNAL DUPECHECKEROVERRIDE
+order NSW = SECTION CONSOLEREGION LANGUAGE DUPE INTERNAL DUPECHECKEROVERRIDE
+order PS4 = SECTION CONSOLEREGION LANGUAGE DUPE INTERNAL DUPECHECKEROVERRIDE
+#TODO: CONSOLEREGION MAYBE NOT JUST HERE INTERNAL
+order XBOX360 = SECTION CONSOLEREGION LANGUAGE DUPE INTERNAL DUPECHECKEROVERRIDE
+order 3DS = SECTION CONSOLEREGION LANGUAGE DUPE INTERNAL DUPECHECKEROVERRIDE
+order XXX = SECTION CODEC VIDEOSOURCE RESOLUTION LANGUAGE DUPE INTERNAL DUPECHECKEROVERRIDE
+order BOOKWARE = SECTION BOOKWARETYPE DUPE INTERNAL DUPECHECKEROVERRIDE
+
+
+
+# FEATURES
+#===============================================================================
+feature SECTION = $GAMES $SPORTS XXX $MOVIES $TV PS4 $DOX $APPS WIIU NSW XBOX360 3DS $BOOKWARE 
+#TODO: special case the movie triple x maybe not works
+#-------------------------------------------------------------------------------
+topic MOVIES = !$TVEP $progressiveScan|$source|$codec
+topic TV = $TVEP $progressiveScan|$source|$codec|$interlacedScan
+topic SPORTS = $sport $codec !$TVEP
+topic GAMES = $GAME-GROUPS !$DOX
+topic DOX = $DOX-GROUPS $DOX !Multi\d
+topic APPS = $UTIL-GROUPS !GAME
+topic BOOKWARE = $BOOKIE-GROUPS|$BOOKIE-COMPANY
+#-------------------------------------------------------------------------------
+keyword source = WEB HDTV BLURAY COMLETE.BLURAY COMPLETE.UHD DVDRip DVDR BDRip MBluRay BlueRay  
+keyword codec = xvid h264 x264 x265 DivX MP4
+keyword sport = WWE FIFA WEHC FORMULA1 F1 F2 GP3 Ballroom WWE Boxing UFC PGA.Tour MOTOGP Rugby MISCSPORT
+keyword progressiveScan = 720p 1080p 2160p
+keyword interlacedScan = 720i 1080i 2160i
+
+
+#===============================================================================
+feature CODEC = xvid h264 x264 x265 DivX
+
+
+#===============================================================================
+feature CLS = $CLS $NEW
+#-------------------------------------------------------------------------------
+topic CLS = 19\d\d|200\d|201[0123456]
+topic NEW = 201[789]|202\d|203\d
+
+
+#===============================================================================
+feature VIDEOSOURCE =  WEB webrip HDTV PDTV $BDR $UHD $UHDRip DVDR DVDRip BDRip MBluRay $BLURAY 
+#-------------------------------------------------------------------------------
+topic WEB = WEB WEBRip
+topic BLURAY = BLURAY|BlueRay
+topic BDR = COMPLETE.BLU[e]*RAY
+topic UHD = COMPLETE.UHD
+topic UHDRip = UHD x265
+
+
+#===============================================================================
+#feature DUPE = releaseDupe dupesWEB dupesHDTV noDupe dupesPAL dupesNTSC dupesJPN dupesUSA
+feature DUPE = releaseDupe dupesWEB dupesHDTV noDupe $dupesPAL $dupesNTSC dupesJPN dupesRF
+#-------------------------------------------------------------------------------
+topic dupesNTSC = dupesNTSC|dupesUSA
+topic dupesPAL = dupesPAL|dupesEUR
+
+
+#===============================================================================
+feature SCREENS = $Limited $Festival $STV $Docu $Wide
+#-------------------------------------------------------------------------------
+topic Limited = limited|lim
+topic Festival = festival
+topic STV = stv|!limited
+topic Docu = DOC|DOCU|Documentary
+topic Wide = $wide
+
+#-------------------------------------------------------------------------------
+keyword wide = wide
+
+
+#===============================================================================
+feature RESOLUTION = 720p 1080p 2160p
+
+#===============================================================================
+feature IMDB = nonfo nfo
+
+
+#===============================================================================
+feature LANGUAGE = $DE $NO $DK $FI $SE $RU $FR $IT $EN $US $PL
+#-------------------------------------------------------------------------------
+topic DE = GERMAN|DEUTSCH|DE
+topic NO = NORWEGIAN|Norway|NO
+topic FI = FINNLAND|FINNISH|FI
+topic SE = SWEDEN|SWEDISH|SE
+topic DK = DENMARK|DANSK|DANISH|DK
+topic RU = RUSSIAN|RUSSIA|русский|RU
+topic FR = FRANCE|FRENCH|FANCAIS|FR
+topic IT = ITALIA|ITALIAN|ITALIANO|IT
+topic ES = SPANISH
+topic IND = INDISH
+topic EN = EN|ENG|ENGLISH|ENGLISCH|ANGLAIS|!$LANGUAGES
+topic US = US|USA|America
+topic PL = POLISH|PL
+
+#TODO: show what users and sites are parsed
+#TODO: check group() rule again 
+
+#===============================================================================
+feature MOVIEGENRE = Action Adult Adventure Animation Biography Comedy Crime Documentary Drama Family Fantasy Film-Noir Game-Show History Horror Music Musical Mystery News Reality-TV Romance Sci-Fi Short Sport Talk-Show Thriller War Western
+
+
+#===============================================================================
+feature TVGENRE = Action Adult Adventure Anime Children Comedy Crime DIY Drama Espionage Family Fantasy Food History Horror Legal Medical Music Mystery Nature Romance Science-Fiction Sports Supernatural Thriller Travel War Western
+
+
+#===============================================================================
+feature TVTYPE = Scripted Reality Animation Talk-Show Documentary Sports Variety Panel-Show News Game-Show Award-Show
+
+
+#===============================================================================
+feature TVCOUNTRY = nw_us nw_ca nw_jp nw_gb nw_fr nw_no nw_es nw_pt nw_nl nw_de nw_cl nw_au nw_dk nw_be nw_se nw_kr nw_ie nw_il nw_it nw_at nw_th nw_ru nw_hk nw_br nw_in nw_pl nw_cn nw_ae nw_cz nw_nz nw_za nw_bg nw_fi nw_ro nw_tw nw_sg nw_ua nw_lv nw_rs nw_ge nw_hu nw_tr nw_sa nw_ph nw_mx nw_al nw_af nw_ar nw_am nw_az nw_is nw_pk nw_ee nw_co nw_ir nw_hr nw_kz nw_kp nw_ch nw_ve nw_pe nw_pr nw_by nw_mv nw_gr nw_ba nw_lb nw_iq nw_my nw_lt nw_cy nw_si nw_pf nw_tt
+
+
+#===============================================================================
+feature DIMENSIONS = $3D $2D
+#-------------------------------------------------------------------------------
+topic 3D = 3D
+topic 2D = !3D
+
+
+#===============================================================================
+feature SPORT = NFL NBA MLB NHL WWE $F1 UFC $MOTOGP $MISCSPORT $Rugby 
+#-------------------------------------------------------------------------------
+topic F1 = $keywordF1 !$GAME-GROUPS !$DOX-GROUPS                               #TODO: test.f1.testeset.2018.1080p.x264-lala soll nicht als sport erkannt werden, keine hohe prio aber gut wenn machbar
+keyword keywordF1 = ^F1|^Formula1
+topic MOTOGP = MOTOGP !$GAME-GROUPS !$DOX-GROUPS                                #TODO: ev. IF name nicht in der IMDB, oder IF "hat jahreszahl" BSP: doc/relevant/formula
+topic MISCSPORT = MISCSPORT !$GAME-GROUPS !$DOX-GROUPS
+topic Rugby = Rugby !$GAME-GROUPS !$DOX-GROUPS
+
+
+#===============================================================================
+feature OS = BSD $MAC Linux Solaris Irix $WINDOWS
+#-------------------------------------------------------------------------------
+topic MAC =  MACOSX|MACOS|OSX
+topic WINDOWS = !BSD !MAC !Linux !Solaris !Irix
+
+
+#===============================================================================
+#feature CONSOLEREGION = PAL NTSC JPN USA
+feature CONSOLEREGION = $PAL $NTSC JPN $RF
+#-------------------------------------------------------------------------------
+topic NTSC = NTSC|USA
+topic PAL = PAL|EUR
+topic RF = !PAL !EUR !NTSC !USA !JPN
+
+
+#===============================================================================
+feature APPSTYPE = maps $indu $stdapp
+#-------------------------------------------------------------------------------
+topic indu = $indu
+topic stdapp = !$indu
+
+
+#===============================================================================
+feature BOOKWARETYPE = $BWIT $BW3D $BWMISC
+#-------------------------------------------------------------------------------
+topic BWIT = $BWIT
+topic BW3D = $BW3D !$BWIT
+topic BWMISC = !$BW3D !$BWIT
+
+
+#===============================================================================
+feature INTERNAL = INTERNAL $EXTERNAL
+#-------------------------------------------------------------------------------
+topic EXTERNAL = !INTERNAL
+#WARNING, USING INTERNAL AND NON-INERNAL would not work because INTERNAL is a word found in non-INTERNAL
+
+
+feature DUPECHECKEROVERRIDE = PROPER REPACK RERIP REMASTER REAL.PROPER DirectorsCut Special-Edition THEATRICAL
+
+
+# sepearation words to split the content name from the other things
+#===============================================================================
+separator  =  $TVEP 20\d\d 19\d\d XXX part[\d] [\.]part[\.] LiMiTED SWESUB PDTV 1080p 720p 2160p bluray EXTENDED
+
+
+
+#TODO: funktion die anzeigt weshalb etwas nicht an cbftp geschickt wird oder parameter dass die herleitung (debug) anzeigt bei gegebenem release
+
+
+# Users configuration
+#===============================================================================
+user = user05 user01 user02 user03 user04
+#  user04
+#user = user05   user03
+
+# Users configuration
+#===============================================================================
+sites = BBR BRW DNS G4Y GP TPB ZH DOM GP KOH TPB JB
+sites = SITE1
+
+
+# rule templates
+#===============================================================================
+ruletemplate std = EXTERNAL nodupe EN US 2D nfo wide
+ruletemplate stdmovies = Action Adult Adventure Animation Comedy Crime Drama Family Fantasy Film-Noir History Horror Mystery Romance Sci-Fi Sport Thriller War Western
+ruletemplate lim = Limited 1080p 720p
+ruletemplate noscr = stv
+
+
+# 0 screen override groups
+#===============================================================================
+screenoverridegroups = ALLiANCE ARROW BaLD BOW CBGB Chakra Counterfeit CuriousJotos DiAMOND DMT DoNE DREAMLiGHT EMERALD FLAiTE HALCYON HUBRIS iMBT iNFAMOUS Larceny MDP METiS MPTDVD NeDiVx NoSCR ORC REFiNED REiGN Replica SAPHiRE SCREAM SiNNERS SVENNE TGP ViTE xSCR DEFACED AxMIABLE TWiZTED REFiNED Felony BLOW COCAIN SPARKS GECKOS
+
+
+
+# blacklists
+#===============================================================================
+networkblacklist = Disney nickelodeon
+networkwhitelist = Disney nickelodeon
+
+#sectionblacklist = TV
+#sectionwhitelist = TV
+
+
+# groups:
+blacklist = -CiELOS -HYBRIS -SH0W -ANIURL MULTI\d{1,2}-PROPHET -ASSASS1NS -infinite -LhBox -HandHeldXXX -NicJr -REQDVD -SCaNS -BSOUNDZ -KiSS -RES -TML -Aldi -MnDNLDVDr -AMRCMPG -supplex -PMM -KHG -SIECHTUM -RC -CMSVCD -25 -TDS -OGMx -ToxiC -MUSiX -DrDVD -AI -RSNTV -CLXXX -MaM -PHOENIX -KiF -LCxxx -D3Si -YARDVID -OWLiSH -VALiOMEDiA -GNVRiSO -H0T -kHzViD -SweetDreamZ -OCRANA -FKKDVDR -ReJecTS Faerie.Tale.Theatre -PRE -wAnk0rZ  -KiDDoS -INSECTS -dCZ -G4L -GORE -BAND1D0S -NERO -DARKFLiX -DTODx -MARVSDAREDEVIL -MAKINGAMURDERER
+# keywords:
+blacklist = Incl.Keymaker Incl.Keyfilemaker [._]Thai[._] WiiWare History.Channel.*XVID Game.Guide FESTIVAL AUDIOPACK UMDMOVIE The\.\.S \.PLDUB\. \.BALTIC\. MP4.PSP PSPMOVIE NFOFIX DIRFIX [._]PL[._-] [._]ES[._-] [._]CZ[._-] [_.-]TEST[._-] ^TEST[_.]!Drive INCOMPLETE CDDA -tv- compression ignore [_.]Keygen[_.-] [_.]selector[_.] [_.]crackfix[_.-] [_.]cheat[_.-] [_.]sub100[_.] [_.]stv[_.] nuker nuked nukee nuke- CRN- NOCD NODVD nfo.fix T[_.]E[_.]S[_.]T [._]Subfix[._-] -POCKETEERS Adam.12. Poker.Superstars.Invitational [\._]ES[\._] DVDRip.XviD-aAF [._]multi[._-]
+# fake/auto catch keywords:
+blacklist = ROH\.\d\d\d\d 4uto 4ut0 aut0 [._o0]script tr4de trad3 tr4d3 autotrade move.alone pressing.t without.*hand without.*finger not.*around [._]I[._].*like[._] [._]fxp[._] mkdir autojoin autosheep sucks
+# series tradeable NOWHERE:
+blacklist = El.Chapo.S Punky.Brewster.S The.Biggest.Loser.Australia.S The.Legend.Of.Prince.Valiant.S Eureka.*PDTV Green.Acres.S Law.and.Order.S10.*.HDTV.XviD ^Rachael.Rays.\d Discovery.Channel.*XviD Beyond.Tomorrow.S\d Stingers.S\d.+PDTV JAG.S\d.+DSRip The.Partridge.Family.S\d ^Minder.S Corner.Gas.S\d The.Rockford.Files.S\d.+DVDRip Blue.Heelers.S\d ^Soap.S\d Full.House.S\d The.Partridge.Family.S\d Til.Death.Do.Us.Part.Carmen.and.Dave.Uncensored.S\d Kenny.vs.Spenny.S\d Robin.Of.Sherwood.1984.S\d Beyond.Tomorrow.S\d Garfield.And.Friends.S\d Nowhere.Man.S\d McCloud.S\d McMillan.and.Wife.S\d Look.Around.You.S\d Bonanza.S\d Terry.And.June.S\d Three.of.a.Kind.S\d Hill.Street.Blues.S\d Knight.Rider.S\d Boon.S\d  The.Time.Tunnel.S\d The.Andy.Griffith.Show.S\d The.Pretender.S\d Leave.It.To.Beaver.S\d NewsRadio.S\d Beast.Machines.S\d Tabitha.S\d Big+Cat+Week\d Tomorrow.People\d Harvey.Birdman.Attorney.At.Law.S\d Anything.but.Love.S\d Charlie.Jade.S\d Off.To.War.E\d Allo.Allo.S\d The.Three.Stooges.S\d Judge.John.Deed.S\d Alias.Smith.And.Jones.S\d The.Immortal.E\d Deadly.Predators.*-aAF ^FIBA.2007 ^Father.Dear.Father.In.Australia.S\d Bounty.Girls.Miami.S\d Defenders.Of.The.Earth.S\d Alfred.Hitchcock.Presents.S\d
+
+# Generally used Keywords
+#===============================================================================
+keyword TVEP = S\d+E\d+ E\d\d
+
+TODO: entweder ^ implementieren oder das ^ überall entfernen => 
+keyword indu = ACTEL[._] ALTAIR[._] ^ALTERA[._] ANSOFT[._] ANSYS[._] ^BASIS[._] ^BENTLEY[._] ^CD[-.]ADAPCO[._] ^CGTECH[._] ^CIM[._-] ^CIMATRON[._] ^COADE[._] ^CORETECH[._] ^DASSAULT[._] ^DOWELL[._]SYSTEMS[._] ^EDS[._] ^EUROSYSTEMS[._] ^GIBBSCAM[._] ILIGHT[._] ^ITI[._] LICOM[._] ^LMS[._] ^LUXOLOGY.MODO[._] ^MASTERCAM[._] ^MSC[._] ^NI[._] ^ORTHOCRAT[._] ^PATHSCALE[._] PTC[._] ^ROMAX[._] ^SIEMENS[._] ^SIMULIA[._] ^SOLIDWORKS[._] ^TECPLOT[._] ^TEKLA[._] ^TRANSMAGIC[._] VAULT[._] VERO.VISI[._-] KISSSOFT[._] ANALYTICAL.GRAPHICS[._] ^UGS[._] DELCAM[._] SURFWARE[._] PTC.INTRALINK[._] MSC.FEA Lectra[._] Cadence.Allegro.Silicon.Package.Board[._] OrCAD[._] ^NI[._] ^CEDRAT[._] ^HAMPSON.RUSSELL[._] ^INDUSOFT[._] ^Accelrys[._] MBCAA[._] ^Volkswagen[._] ^AUTODESK. ^ABB.PICKMASTER. ^ACCELRYS. ^ACECAD. .STRUCAD. ^ALGOR. ^ANSYS. ^ASPENTECH. ^ASYLUM.SOFTWARE. ^AUTOFORM.MASTER ^ALLDATA. ^ALTERA. ^ALTIRIS. ^AUTODATA. ^AUTOMOTIVE. ^BIBLEWORKS. ^BMW.ETK. ^BMW.TIS. ^BENTLEY.MICROSTATION. ^CANOPUS. ^CEI.ENSIGHT. ^CGTECH.VERICUT ^COMSOL. ^CSI.ETABS. ^CSI.SAP2000. ^CADENAS. ^CADLINK. ^COGNOS. ^DASSAULT. ^DASYLAB. ^DLUBAL. ^DP.TECHNOLOGY.ESPRIT ^DELCAM.POWERMILL. ^E-ON. ^EMRC.CIVIL ^BENTLEY.PROSTEEL. ^BENTLEY. ^LANTEK. ^ESI.PROCAST ^ESRI.ARCGIS ^ETOS. ^EUROSYSTEMS. ^FLEXISIGN. ^FLOMERICS. ^GRAPHISOFT. .ABAQUS. ^IBM. ^IGO.FIGURE ^IMSI. ^INVENSYS. ^LECTRA. ^LEICA. ^LUSAS.FEA ^MASTERCAM. ^MATERIALISE. ^MERCURY. ^MSC. ^MENTOR.GRAPHICS ^MAXIMIZER. ^MITCHELL.GLASSMATE ^MITCHELL.ONDEMAND ^MITCHELL1.ONDEMAND ^NI.DAQMX ^NI.DIADEM ^NI.ECU ^NI.LABVIEW ^NI.MOTION ^NI.SIGNALEXPRESS ^NI.VISION ^NAVISWORKS. ^NEMETSCHEK.ALLPLAN ^OLYMPUS. ^PATHTRACE.EDGECAM ^PRIMAVERA. ^VERO.VISI. ^PROCAD. ^PROSTEEL. ^PTC. ^PUNCH.HOME ^PLANIT. ^POSER. ^PROGECAD. ^RDV.SYSTEMS ^REFLEX. .STAADPRO. ^RAGTIME. ^RIB.CONSTRUCTION ^SAGE. ^SCHOUENBERG.CALCMASTER ^SDRC. ^SHEN.PROFESSIONAL ^SOLIDWORKS. ^STAAD. ^SURFWARE. ^NI. VX.CAM .VECTORWORKS. ^VECTORWORKS. ^VOLVO.RTI ^XILINX. .DASSAULT. TIVOLI SYNOPSYS. CADENCE. ALGOR. .EUROCUT. ANSOFT. POSER. ^ALLDATA. ^HAMPSON. ^ACTEL. ^FINTRONIC. .NCSIMUL. ^GEHRY.TECHNOLOGIES. ^VAG. ^DELCAM.ARTCAM. ^SIEMENS.NX5. ^NI.LABVIEW. ^CD-ADAPCO.STAR-CCM. ^CSCC.MASTERSERIES. ^CEDRAT. ^WILCOX. ^INUS. ^MIPACS. .DENTAL. ^ALTAIR.HYPERWORKS. ^TRANSCENDATA.CADFIX.^AGILENT. ^ATIR. ^CD.ADAPCO.STAR. ^SIEMENS. ^INFOR.ERP.LN. ^LMS.TEST.LAB. ^LMS.LAB. ^RIGHT.HEMISPHERE.DEEP.EXPLORATION.CAD. ^CHEMICAL.COMPUTING. ^CCG. ^DP.TECHNOLOGY. ^DATAM. ^TEKLA. ^VIACAD. ^MSC.PATRAN ^PICATUS ^DYNASIM.DYMOLA. ^SINDAG.APPLICATION.SUITE. ^STFC.DEFORM-3D ^STFC.DEFORM. ^TRIPOS.SYBYL. ^DELCAM.ARTCAM. ^CIM.TEAM.E3.SERIES. ^MATRIX42.EMPIRUM. ^TESIS. ^CORETECH.MOLDEX3D. ^LMS.IMAGINE.LAB. ^TECPLOT. ^COCREATE.MODELING.DRAFTING. ^THINK3. ^LIFT.DESIGNER. ^FLOWSCIENCE. ^INDUSOFT.WEB.STUDIO. ^SOFTWARE.CRADLE.SC.TETRA. ^MAGMASOFT. ^CSI.ETABS. ^AWR.DESIGN.ENVIRONMENT ^DELCAM. ^ESI. ^GRAITEC.ADVANCE.STEEL. ^ARM.REALVIEW. ^DICAD. ^CSI.SAFE. ^CHIEF.ARCHITECT. ^HYPERSIZER.PRO. ^GIBBSCAM. ^BASIS.PRODUCT.SUITE. ^ICEM. ^GIBBSCAM ^ECA.VRT. ^SIMUFACT.FORMING. ^CORE.TECHNOLOGIE.3D.EVOLUTION. ^CIMATRONE. ^NEMETSCHEK. ^SOFTTECH.AVANTI. ^SOFTTECH.PRONTO. ^T-SYSTEMS.MEDINA. ^T-SYSTEMS. ^SPACECLAIM. ^CST.STUDIO. ^CST.STUDIO. ^SCHRODINGER.SUITE. ^SCHRODINGER. ^MISSLER.TOPSOLID. ^GRAITEC. ^VERO.ALPHACAM. ^FEI.AVIZO. ^FEI.AMIRA. ^FEI. ^PEN.INVENTOR. ^FEI.OPEN.INVENTOR. ^FEI.AVIZO. ^FEI.AMIRA. ^FEI.VISILOG. ^FEI.VIRTUAL.SLIDES. ^SFTC. ^VERO.WORKNC. .WORKNC. ^ITI. ^WOLFRAM. ^VERO.
+
+#-------------------------------------------------------------------------------
+keyword GAME-GROUPS    = -ASCENSION -BAT -iNLAWS -CCCLX -CXZISO -CPY -CONSPIR4CY -CRYSTALMETH -CODEX -DINOByTES -ELEGANCE -FLT -GAME -HS -HI2U -IMMERSION -MONEY -MYTH -PARANOIA -PCGAME -RAZOR1911 -RELOADED -VENGEANCE -XMAFT -DIE -ViTALiTY -DEViANCE -MiRRoR -NESSUNO -REVENGE -ADDICTION -iNDUCT -iTWiNS -bC -OSX -PLEX -DIE -UNLEASHED -PROCYON -CRIME -RECHARGED -CIFE -GGS -TNT -DETONATiON -POSTMORTEM -iRRMiSO -FASiSO -Hatred -JFKPC -ViSTA -OVERDUE -QUARTEX -VLISO -AVENGED -RiSiNG -SKIDROW -ONEHiTWONDER -Micronauts -ENiGMA -ARMADA -HI2U -GOW -TiNYiSO -ATOMiC -WARG -HEiRLOOM -PROPHET -1C -ARM -JAGUAR -FiGHTCLUB -MONEY -JAGDOX -LZ0 -MAXiNN -PLAZA -SMACKs -ACTiVATED -FANiSO -DEFA -DOGE -STEAMPUNKS -HOODLUM
+#-------------------------------------------------------------------------------
+keyword DOX-GROUPS     = -PLAZA -CPY -SKIDROW -iNLAWS -DEVIANCE -FLTDOX -DRUNK -VERMDOX -PIZZADOX -CODEX -IMSDOX -MMDOX -ASCENSION -DEMENTIA -HOODLUM -VITALITY -TNT -RELOADED -UNBAISEDGOATS -ABSENTIA -DEVIOUS -UNLEASHED -DETONATION -PWZ -RazorDOX -HATEDOX -VAMPYRES -RISINGDOX -REEBSAW -BREWERS -HATRED -FLTDOX -BAT -DOX -OUTLAWS -TiNYiSO -DINOByTES
+#-------------------------------------------------------------------------------
+keyword DOX            = [._]Hotfix[._-].*BAT$ [._]DLC[._-].*BAT$ [._]UPDATE[._-] [._]DATAPACK[._-] [._]CHEATS[._-] [._]PATCH[._-] [._]KEYGEN[._-] [._]UNLOCKER[._-] [._]TRAINER[._-] [._]GAMEGUIDE[._] [._]Digital.Extras[._-] [._]Language.Pack[._-]
+#-------------------------------------------------------------------------------
+keyword LANGUAGES      = -RedBlade -BUM3R [._]GERMAN[._-] ([._]|SUB|TRUE)FRENCH[._-] [._]ITALIAN[._-] [._]DUTCH[._-] [._]NL[._-] [._]SWEDISH[._-] [._]DANISH[._] [._]SE[._] [._]NORWEGIAN[._-] [._]NORDIC[._-] [._]FINNISH[._] [._]FI[._] [._]XNO[._] [._]DK[._] [._]HUN[._-] [._]HUNGARIAN[._-] [._]FLEMiSH[._-] [._]POLiSH[._-] [._]CZECH[._-] [._]ESTONiAN[._-] [._]BALTiC[._-] [._]GREEK[._-]!Wedding [._]LiTHUANiAN[._-] [._]JAV[._-] [._]CHINESE[._-] [._]JAPANESE[._-] [._]KOREAN[._-] [._]SPANISH[._-] [._]BRAZiLiAN[._-] [._]CATALAN[._-] [._]TURKiSH[._-]
+#-------------------------------------------------------------------------------
+keyword UTIL-GROUPS    = -ALFISO -ABSOKT -BARCODE -BiN ISO-BLiZZARD -BINCUE -BRiCK -CAXiSO -CHiC -CYGiSO -DELiRiUM -DIGISO MAC.*-DDUiSO -EATISO -EcHoS -FooZiSo -FORTUNE -RiSCiSO -SUBSTANCE -LXTiSO -MAGE -MAGNITUDE -ISO -OCEANS -PANTHEON -PCISO -PHXISO -PREMIERE -JUSTiSO -RBS -RISE -SHOCKISO -SHooTERS -SINISTER -SOSISO -SPiRO -TBE -TDA -TFTISO -HSG -ZWTISO -HOTiSO -MeLA -SiGNMAKER -DVT -KiNETiC -YYePGiSO -CORE -OSX -FCNiSO -XiSO -BWiSO -EDGEISO -DYNAMiCS -BSiSO -HS -rG -QUASAR -RESTORE -SWAMP -DiGiTAL -ARNISO -NOPE -CRD -GAY -BIE -LZ0 -DVTiSO -RASCAL -BLZiSO -ENGiNE -AMPLiFYiSO -RiFT -GRB -CHi -CRBS -FINALCUT -SPYRAL -Level42 -HETERO -KOPiE -LuLZiSO -REMEDYa -iNDiSO -MSDN -NEWiSO -WEBiSO
+#-------------------------------------------------------------------------------
+keyword BOOKIE-GROUPS  = -ADSR -XQZT -OXBRiDGE -fJR -FFF -JGTISO -W3D -AG -HCG -DDUiSO -CFE -SOSISO -QUANTUM -LiBiSO -EDUiSO -CAUiSO -ExAuST -ABORTIONSAREFORBABIES -SAG -ViH -SUNiSO -NSiD -HELL -REGiUS -ViHeX -TACTiLE -QUASAR -ELGiSO -iNKiSO -RESONANCE -iRONiSO -YUM -JWARE -PLATO -RWD -PRODEV -kEISO -THEOS -LiQUiDWARE -TUTOR -ALTAiR -BooKWoRM -ATEK -NiSO -ELOHiM -XCODE -RiDWARE -ADSR -QZXT -H0WT0 -SHEPHERDS -ZH -GU2TC -BiFiSO -iLLiTERATE
+#-------------------------------------------------------------------------------
+keyword BOOKIE-COMPANY = Apress Lynda LinkedIn[_.]Learning Pluralsight Packt Addison[_.]Wesley Stone[_.]River Stoneriver Technics Skylines[_.]Academy Cisco Microsoft Teamtreehouse OREILLY Pearson Intellezy Learntoprogram Total[_.]Training SAMS ICOLLEGE Wintellect
+#-------------------------------------------------------------------------------
+keyword BWIT           = Programming Scripting Python C[_.]Plus C[_.]Sharp Cisco Microsoft Javascript Node[_.]js Coding Windows[_.]Server Microsoft[_.]Office Restful[_.]api Jenkins Wordpress PHP Android Cloud HTML ASP[_.]NET SWIFT SQL Ruby Apps Spring Spring[_.]Boot Comptia Docker Cism Software Development Wireshark Acesss Excel Ansibleios Mongodb Code[_.]Clinic Visual[_.]Studio Windows MacOSX Mac iOS Ubuntu Linux React Security Invision
+#-------------------------------------------------------------------------------
+keyword BW3D           = Photo Photoshop 3D Corel[_.]draw Adobe[_.]animate Photography Sketch 3DS[_.]Max 3DS Modeling Game[_.]design Rendering Lightroom Adobe[_.]spark Illistrator Indesign After[_.]effects Adobe[_.]xd Architecture Fusion[_.]360
+
