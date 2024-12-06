@@ -1,5 +1,9 @@
-# pri2022
+# pri2025
 
+### updating to debian bookworm
+
+## DISCLAMER:
+i dont pirate software, movies or music, i just found it funny to programm such a big software. i mean if pirates use Microsoft Windows nobody would sue Microsoft because of that i guess
 
 
 As root
