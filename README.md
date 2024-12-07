@@ -22,6 +22,18 @@ also likely that since the INTEL CPU with built in WiMax that there is some sort
 
 Further there seems to be some sort of apartement wide WiMax Broadcast message: "Sabotage all backup devices now" eg. CD-Rom Burner ... it includes my positional data, even my EEG and the algorithm triest to force me to do at least one mistake by myself for later "blaming the user" card. as soon blaming the user can be played people would not investigate further on. technically, i guess someone sabotaged buring dual layer dvd roms, and all devices they know i own (serial nummber) are also sabotaged. possibly the reason why the poice officer took photos of all my harddisks in my UBS Aarau deposit, he said "We must controll that marc jr does not have fire-arms in his bank deposit" <- so again using the terrorist narrative for censorship. since i know that i burnt about 10 dual layer dvd with couchsofa tracks from archive.org as an additional backup on the new sata DVD Burner, it must be A) the brasero .deb from debian trixie, B) sabotaged eg. by device serial number / firmware ... but doing it in command line instead of brasero seems to work
 
+2013 they took me from my bedroom with a armed swat from KantonsPolizei Aargau Posten West, called me an alkaida terrorist, but they knew anyway that not i am the terrorist. Switzerland is on the 6st topmost place of 180 coutries in the US corruption list. likely that most police officers and judges make their money with glossing over crime and likey that compared to it's population that much global companies have their headquaters in switzerland is because of that. Then the brought me to mental institution Königsfelden that is attachet to the same 10.0.0.0/16 like the police stations or eg the tax buro of canton aargau. gave me that much neuroleptics like never before so that in curt i was stupid as a peace of bread. MEME: original swiss idiot sandwich
+
+neuroleptics are possibly just a part of the things they do, i think i am a unwilling lab rat of university of basel that has a project to delete memories. they say that this would be good for rape vitims so that they dont trigger to suicide attempts anymore, but that's possibly just a lie.
+
+as soon one has something like more than one neuralink they can deactivate certain regions of the brain with noise, and decide where specific they would like to store certain information(s) in my brain (Segmentation)
+
+eg if i type ssh-keygen the segmentation is automatically enabled, stores the password for the key in a certain area of the brain and then 24h while i am sleeping they erase this area. so i would need to note down passwords, and that's maybe not the best idea.
+
+EventTrigger: ssh-keygen ???
+============
+-> see hackerscardgame.org/2 for things about illegal military neuro-implant research in switzerland since 1950 ...
+
 # installation ...
 As root
 1. run Prerequisites, tested on debian buster, bullseye ... no guarantee that you dont have to fix things since things change
