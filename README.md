@@ -1,12 +1,13 @@
 # pri2025
 
-### updating to debian bookworm
+### updating to debian <s>bookworm</s> trixie
+Sat Dec 7 03:01:16 AM CET 2024 Linux localhost 6.11.10-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.11.10-1 (2024-11-23) x86_64 GNU/Linux
 
 ## DISCLAMER:
 i dont pirate software, movies or music, i just found it funny to programm such a big software. i mean if pirates use Microsoft Windows nobody would sue Microsoft because of that i guess
 
 ## ABOVE ABOVE TOP SECRET
-first busts of WAREZ and Trader ScENE was about 2010. It's not about poor people in hollywood that were betrayed because of lincese fees. ThE ScENE is a large content distribution network with tech savy people. Reasion is in my SUBJECTIVE opinion that miliaries all over the globe not just have a global assessionation grid but also a global censorship grid. if militaries kill inocent people all over the globe it implies that there is also some sort of censorship infrastructure. often privatized, eg insurance companies that also have insurance for protecting people against legitimate lawsutes.
+first bigger busts of WAREZ and Trader ScENE was about 2010. It's not about poor people in hollywood that were betrayed because of lincese fees. ThE ScENE is a large content distribution network with tech savy people. Reasion is in my SUBJECTIVE opinion that miliaries all over the globe not just have a global assessionation grid but also a global censorship grid. if militaries kill inocent people all over the globe it implies that there is also some sort of censorship infrastructure. often privatized, eg insurance companies that also have insurance for protecting people against legitimate lawsutes.
 
 this censorship infrastructure seems to work based on hash valuse of files that were already indexed. and as soon as one tries to copy, analyze or send such a file to officials (z.B FEDPOL in Switzerland) it automatically enables functions like ICD10 G40.2 on different strenghts. So the reason why autistic people have autistic helmets. maybe this infrastructure also targets federal officers.
 
@@ -17,9 +18,11 @@ And it is likely that it has a quite easy to use API / GUI for violent but not t
 
 -> what would activate global destruction of that file based on hash value
 
-also likely that since the INTEL CPU with built in WiMax that there is some sort of secont network, so if you computer is completely air gapped they can still censor things the would bring murderer with officers degree of local army into civil curt and into prison
+also likely that since the INTEL CPU with built in WiMax that there is some sort of secont network, so if you computer is completely air gapped they can still censor things the would bring murderer with officers degree of local army into civil curt and into prison. the censorship "feature" seems to delete eg. images i made from my employees and replace them with really lot of junk files (eg. small but a lot images of buttons from websites) and really ugly and annoying adult content. Further the also transmitted if i dont make (non ugly) content from me for the only girl-friend i ever had ... and this after they "reporgrammed" me in mental instituition Psychiatrie Königsfelden in the canton of aargau. if you look at the timeline of my photos even a kid would recognize that. so people that shall be scensored since they are whitness for murderer are degraded to a peace of meat like me by the age of about 30. wirst case they even bought my so called parents to help censor and sabotage me, and in the end it would look like a family drama if i die and nobody would ask further questions about the global censorship infrastructure, because JUST A FAMILY DRAMA with two pedophile old 1950 (p)arent's
 
+Further there seems to be some sort of apartement wide WiMax Broadcast message: "Sabotage all backup devices now" eg. CD-Rom Burner ... it includes my positional data, even my EEG and the algorithm triest to force me to do at least one mistake by myself for later "blaming the user" card. as soon blaming the user can be played people would not investigate further on. technically, i guess someone sabotaged buring dual layer dvd roms, and all devices they know i own (serial nummber) are also sabotaged. possibly the reason why the poice officer took photos of all my harddisks in my UBS Aarau deposit, he said "We must controll that marc jr does not have fire-arms in his bank deposit" <- so again using the terrorist narrative for censorship. since i know that i burnt about 10 dual layer dvd with couchsofa tracks from archive.org as an additional backup on the new sata DVD Burner, it must be A) the brasero .deb from debian trixie, B) sabotaged eg. by device serial number / firmware ... but doing it in command line instead of brasero seems to work
 
+# installation ...
 As root
 1. run Prerequisites, tested on debian buster, bullseye ... no guarantee that you dont have to fix things since things change
 2. run ./tools/install/setup.sh
