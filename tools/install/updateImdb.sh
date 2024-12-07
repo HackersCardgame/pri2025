@@ -130,8 +130,8 @@ fi
 
 popd
 
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_akas_tsv;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_basics_tsv;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_ratings_tsv;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM title_akas_tsv;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM title_basics_tsv;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM title_ratings_tsv;"
 
 

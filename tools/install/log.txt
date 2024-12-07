@@ -473,3 +473,15 @@ SUCCESS: mysql pci --user pci -p -e source /home/marc/_pri2025/tools/install/dum
 SUCCESS: python3 dbConfigFiles.py --import all
 SUCCESS: mysql pci --user pci -p -e SELECT count(*) FROM config2;
 ERROR: python3 imdbGet.py
+SUCCESS: python3 imdbImport.py --import
+ERROR: mysql pci -e SELECT count(*) FROM title_akas_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM title_basics_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM title_ratings_tsv;
+ERROR: mysql pci -e SELECT count(*) FROM akas;
+ERROR: mysql pci -e SELECT count(*) FROM basics;
+ERROR: mysql pci -e SELECT count(*) FROM ratings;
+ERROR: mysql pci -e SELECT count(*) FROM akas_small;
+ERROR: mysql pci -e SELECT count(*) FROM basics_small;
+ERROR: mysql pci -e SELECT count(*) FROM ratings_small;
+SUCCESS: python3 mojoUpdate.py
+ERROR: python3 mojoImport.py

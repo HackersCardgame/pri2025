@@ -10,10 +10,10 @@ BASEPATH=$(dirname "$SCRIPT")
 
 date
 echo -e "${yellow}creating memorycopy${default}"
-time mysql -fv pci < $BASEPATH/tables/memorycopy.sql
+time mysql --user pci -p -fv pci < $BASEPATH/tables/memorycopy.sql
 
 date
 echo -e "${yellow}creating memorycopy-small${default}"
 #       time python3 imdbImport.py --memorycopy-small
-time mysql -fv pci < $BASEPATH/tables/memorycopy-small.sql
+time mysql --user pci -p -fv pci < $BASEPATH/tables/memorycopy-small.sql
 

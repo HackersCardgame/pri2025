@@ -58,9 +58,9 @@ fi
 #ON ALL OPERATING SYSTEMS
 ################################################################################
 
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_akas_tsv;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_basics_tsv;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_ratings_tsv;"
+ShowAndExecute 'mysql pci --user pci -p -e' "SELECT count(*) FROM title_akas_tsv;"
+ShowAndExecute 'mysql pci --user pci -p -e' "SELECT count(*) FROM title_basics_tsv;"
+ShowAndExecute 'mysql pci --user pci -p -e' "SELECT count(*) FROM title_ratings_tsv;"
 
 
 pwd
@@ -117,8 +117,8 @@ fi
 
 popd
 
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_akas_tsv;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_basics_tsv;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_ratings_tsv;"
+ShowAndExecute 'mysql pci --user pci -p -e' "SELECT count(*) FROM title_akas_tsv;"
+ShowAndExecute 'mysql pci --user pci -p -e' "SELECT count(*) FROM title_basics_tsv;"
+ShowAndExecute 'mysql pci --user pci -p -e' "SELECT count(*) FROM title_ratings_tsv;"
 
 

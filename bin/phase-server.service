@@ -1,0 +1,16 @@
+[Unit]
+Description=Phase Server
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=pri
+WorkingDirectory=/opt/pri/bin
+#ExecStartPre=mysql -f pci <  /opt/pri/bin/memorycopy-small.sql
+ExecStart=/opt/pri/bin/phaseServer
+
+[Install]
+WantedBy=multi-user.target

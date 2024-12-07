@@ -81,25 +81,25 @@ date
 echo -e "${yellow}importing IMDB Tables from csv files${default}"
 ShowAndExecute "python3 imdbImport.py --import"
 
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_akas_tsv;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_basics_tsv;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_ratings_tsv;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM title_akas_tsv;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM title_basics_tsv;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM title_ratings_tsv;"
 
 date
 echo -e "${yellow}creating memorycopy${default}"
-time mysql -fv pci < $BASEPATH/tables/memorycopy.sql
+time mysql --user pci -p -fv pci < $BASEPATH/tables/memorycopy.sql
 
 date
 echo -e "${yellow}creating memorycopy-small${default}"
 #	time python3 imdbImport.py --memorycopy-small
-time mysql -fv pci < $BASEPATH/tables/memorycopy-small.sql
+time mysql --user pci -p-fv pci < $BASEPATH/tables/memorycopy-small.sql
 
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM akas;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM basics;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM ratings;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM akas_small;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM basics_small;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM ratings_small;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM akas;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM basics;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM ratings;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM akas_small;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM basics_small;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM ratings_small;"
 
 date
 echo -e "${yellow}updating one single mojo to check functionality${default}"

@@ -58,9 +58,9 @@ fi
 #ON ALL OPERATING SYSTEMS
 ################################################################################
 
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_akas_tsv;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_basics_tsv;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_ratings_tsv;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM title_akas_tsv;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM title_basics_tsv;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM title_ratings_tsv;"
 
 
 pwd
@@ -83,7 +83,7 @@ then
   echo importing one single mojo to check functionality
   python3 mojoImport.py
 
-  ShowAndExecute 'mysql pci -e' "SELECT * from mojo;"
+  ShowAndExecute 'mysql --user pci -p pci -e' "SELECT * from mojo;"
 
 fi
 
@@ -119,15 +119,15 @@ then
 		echo importing one single mojo to check functionality
 		python3 mojoImport.py
 
-    ShowAndExecute 'mysql pci -e' "SELECT * from mojo;"
+    ShowAndExecute 'mysql --user pci -p pci -e' "SELECT * from mojo;"
 
 EOF
 fi
 
 popd
 
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_akas_tsv;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_basics_tsv;"
-ShowAndExecute 'mysql pci -e' "SELECT count(*) FROM title_ratings_tsv;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM title_akas_tsv;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM title_basics_tsv;"
+ShowAndExecute 'mysql --user pci -p pci -e' "SELECT count(*) FROM title_ratings_tsv;"
 
 
